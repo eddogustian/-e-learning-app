@@ -1,38 +1,78 @@
-.App {
+#header {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 1px rgba(20, 23, 28, 0.1);
+  border-radius: 0px;
+}
+
+#btnCari .form-control {
+  width: 472px;
+  height: 44px;
+  left: 339px;
+  top: 10px;
+}
+
+#btnMasuk {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
   text-align: center;
+  color: #686F7A;
+  width: 70px;
+  height: 44px;
+  left: 1083px;
+  background: #FFFFFF;
+  border: 1px solid #686F7A;
+  box-sizing: border-box;
+  border-radius: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#btnDaftar {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 80px;
+  height: 44px;
+  background: #FF4E4E;
+  border-radius: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#footer {
+  height: 175px;
+  background: #AA222F;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.foot-link-download {
+  float: right;
+}
+
+.foot-link-download ul li a {}
+
+.foot-link-download ul li {}
+
+.foot-link-sosmed {
+  float: right;
+  padding: 20px 0px;
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+.foot-link-sosmed ul li a {
+  list-style-type: none;
+  float: left;
   color: white;
+  padding: 3px 6px;
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.foot-link-sosmed ul li {
+  list-style-type: none;
+  float: left;
 }
