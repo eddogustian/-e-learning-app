@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from "./components/HeaderSection";
+import Navigation from "./components/NavSection";
 import Tentang from "./components/TentangSection";
 import Konten from "./components/KontenSection";
 import Persyaratan from "./components/PersyaratanSection";
@@ -12,7 +12,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="Container">
-      <Header />
+      <Navigation />
       <Tentang />
       <Konten />
       <Persyaratan />
