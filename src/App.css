@@ -47,13 +47,13 @@
   background: #AA222F;
 }
 
-.foot-link-download {
-  float: right;
-}
+.foot-link-download {}
 
 .foot-link-download ul li a {}
 
-.foot-link-download ul li {}
+.foot-link-download ul li {
+  list-style-type: none;
+}
 
 .foot-link-sosmed {
   float: right;
