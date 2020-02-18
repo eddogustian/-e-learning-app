@@ -3,7 +3,7 @@ import line from "./../assets/images/line.png";
 
 const Tentang = () => {
   return (
-    <section className="ContentTentang">
+    <section className="ContentTentang" id="tentang">
       <div className="container">
         <div className="row">
           <div className="col-md-9">
