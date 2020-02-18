@@ -3,7 +3,7 @@ import line from "./../assets/images/line.png";
 
 const Ulasan = () => {
   return (
-    <section className="contentUlasan" id="ulasan">
+    <section className="contentUlasan" id={"ulasan"}>
       <div className="container">
         <div className="row">
           <div className="col-md-9">

@@ -3,7 +3,7 @@ import line from "./../assets/images/line.png";
 
 const Konten = () => {
   return (
-    <section className="contentSection" id="konten">
+    <section className="contentSection" id={"konten"}>
       <div className="container">
         <div className="row">
           <div className="col-md-9">
@@ -26,14 +26,14 @@ const Konten = () => {
                   </div>
                 </div>
                 <div
-                  className="card-header collapsed"
+                  className="card-header card-headers collapsed"
                   data-toggle="collapse"
                   href="#collapseOne"
                 >
-                  <a href="/#" className="card-title">
+                  <span className="card-title">
                     <h4>Penejelasan dengan PDF</h4>
                     <smal>2 Materi dengan PDF</smal>
-                  </a>
+                  </span>
                 </div>
                 <div
                   id="collapseOne"
@@ -44,15 +44,15 @@ const Konten = () => {
                   <p>3. Tujuan dari Materi 2</p>
                 </div>
                 <div
-                  className="card-header collapsed"
+                  className="card-header card-headers collapsed"
                   data-toggle="collapse"
                   data-parent="#accordion"
                   href="#collapseTwo"
                 >
-                  <a href="/#" className="card-title">
+                  <span className="card-title">
                     <h4>Penejelasan dengan Video</h4>
                     <smal>2 Materi dengan Video</smal>
-                  </a>
+                  </span>
                 </div>
                 <div
                   id="collapseTwo"

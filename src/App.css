@@ -1,5 +1,5 @@
 #header {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 1px rgba(20, 23, 28, 0.1);
   border-radius: 0px;
 }
@@ -8,13 +8,12 @@
   margin-top: 4rem;
   width: 100%;
   height: 239px;
-  background: linear-gradient(113.52deg, #07133D -41.24%, #AA222F 68.95%);
+  background: linear-gradient(113.52deg, #07133d -41.24%, #aa222f 68.95%);
   border-radius: 0px;
 }
 
 #headerContent {
   padding: 2rem 0;
-  ;
 }
 
 ._headerContent {
@@ -31,12 +30,12 @@
   display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .title-rating {
   margin-left: 2rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .desc-rating h2 {
@@ -49,7 +48,7 @@
   display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #btnCari .form-control {
@@ -70,12 +69,12 @@
   font-size: 15px;
   line-height: 20px;
   text-align: center;
-  color: #686F7A;
+  color: #686f7a;
   width: 70px;
   height: 44px;
   left: 1083px;
-  background: #FFFFFF;
-  border: 1px solid #686F7A;
+  background: #ffffff;
+  border: 1px solid #686f7a;
   box-sizing: border-box;
   border-radius: 2px;
 }
@@ -87,26 +86,48 @@
   font-size: 15px;
   line-height: 20px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 80px;
   height: 44px;
-  background: #FF4E4E;
+  background: #ff4e4e;
   border-radius: 2px;
 }
+#_menu {
+  border-bottom: 2px solid #eeeeee;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: #686f7a;
+  font-size: 20px;
+}
+#_menu ._menuChild .nav-item .nav-link.active {
+  color: #aa222f !important;
+  background-color: transparent;
+  border-color: transparent transparent #eeeeee;
+  border-bottom: 4px solid #aa222f !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+._menuChild {
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
 
-.accordion .card-header:after {
-  font-family: 'FontAwesome';
+.accordion .card-headers:after {
+  font-family: "FontAwesome";
   content: "\f068";
   float: right;
 }
 
-.accordion .card-header.collapsed:after {
+.accordion .card-headers.collapsed:after {
   /* symbol for "collapsed" panels */
   content: "\f067";
 }
 
 .btn-kursuslain {
-  border: 1px solid #8154EF;
+  border: 1px solid #8154ef;
   box-sizing: border-box;
   border-radius: 36px;
 }
@@ -115,27 +136,28 @@
 
 #tabs {
   background: transparent;
-  color: #686F7A;
+  color: #686f7a;
 }
 
 #tabs h6.section-title {
   color: #eee;
 }
 
-#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #AA222F !important;
+#tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #aa222f !important;
   background-color: transparent;
-  border-color: transparent transparent #EEEEEE;
-  border-bottom: 4px solid #AA222F !important;
+  border-color: transparent transparent #eeeeee;
+  border-bottom: 4px solid #aa222f !important;
   font-size: 20px;
   font-weight: bold;
 }
 
 #tabs .nav-tabs .nav-link {
-  border-bottom: 2px solid #EEEEEE;
-  border-top-left-radius: .25rem;
-  border-top-right-radius: .25rem;
-  color: #686F7A;
+  border-bottom: 2px solid #eeeeee;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: #686f7a;
   font-size: 20px;
 }
 
@@ -146,12 +168,14 @@
 /* tabs end */
 
 #footer {
-  background: #AA222F;
+  background: #aa222f;
 }
 
-.foot-link-download {}
+.foot-link-download {
+}
 
-.foot-link-download ul li a {}
+.foot-link-download ul li a {
+}
 
 .foot-link-download ul li {
   list-style-type: none;

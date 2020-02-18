@@ -1,8 +1,7 @@
 import React from "react";
-
 const Tabs = () => {
   return (
-    <section id="tabs">
+    <section id={"Menu"}>
       <div className="container">
         <ol className="breadcrumb purple lighten-4">
           <li className="bred-item">
@@ -21,58 +20,30 @@ const Tabs = () => {
         </ol>
         <div className="row">
           <div className="col-xs-12 col-md-9">
-            <nav>
-              <div
-                className="nav nav-tabs nav-fill"
-                id="nav-tab"
-                role="tablist"
-              >
-                <a
-                  className="nav-item nav-link active"
-                  id="nav-home-tab"
-                  data-toggle="tab"
-                  href="#tentang"
-                  role="tab"
-                  aria-controls="nav-home"
-                  aria-selected="true"
-                >
-                  Tentang
-                </a>
-                <a
-                  className="nav-item nav-link"
-                  id="nav-profile-tab"
-                  data-toggle="tab"
-                  href="#konten"
-                  role="tab"
-                  aria-controls="nav-profile"
-                  aria-selected="false"
-                >
-                  Konten
-                </a>
-                <a
-                  className="nav-item nav-link"
-                  id="nav-contact-tab"
-                  data-toggle="tab"
-                  href="#persyaratan"
-                  role="tab"
-                  aria-controls="nav-contact"
-                  aria-selected="false"
-                >
-                  persyaratan
-                </a>
-                <a
-                  className="nav-item nav-link"
-                  id="nav-about-tab"
-                  data-toggle="tab"
-                  href="#ulasan"
-                  role="tab"
-                  aria-controls="nav-about"
-                  aria-selected="false"
-                >
-                  Ulasan
-                </a>
-              </div>
-            </nav>
+            <div class="_menu" id="_menu">
+              <ul class="_menuChild mt-5">
+                <li class="nav-item">
+                  <a class="Navlink js-scroll-trigger" href="#tentang">
+                    Our Benefit
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="Navlink js-scroll-trigger" href="#konten">
+                    Our Client
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="Navlink js-scroll-trigger" href="#persyaratan">
+                    Features
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="Navlink js-scroll-trigger" href="#ulasan">
+                    Pricing
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

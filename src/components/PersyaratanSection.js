@@ -6,7 +6,7 @@ import users from "./../assets/images/persyaratan/users.png";
 
 const Persyaratan = () => {
   return (
-    <section className="contentPersyaratan" id="persyaratan">
+    <section className="contentPersyaratan" id={"persyaratan"}>
       <div className="container">
         <div className="row">
           <div className="col-md-9">
