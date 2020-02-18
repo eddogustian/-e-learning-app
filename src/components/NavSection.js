@@ -1,6 +1,8 @@
 import React from "react";
 import "react-sticky-header/styles.css";
 import StickyHeader from "react-sticky-header";
+import ylreal from "./../assets/images/ylreal.png";
+import ktgr from "./../assets/images/header/grid.png";
 
 const Navigation = () => {
   return (
@@ -9,7 +11,7 @@ const Navigation = () => {
       header={
         <nav className="navbar navbar-expand-lg navbar-light" id="header">
           <a className="navbar-brand" href="/#">
-            ylreal
+            <img src={ylreal} className="ylreal" alt="ylreal" width="25%" />
           </a>
           <button
             className="navbar-toggler"
@@ -27,6 +29,7 @@ const Navigation = () => {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="/#">
+                  <img src={ktgr} className="ktgr" alt="ktgr" width="25%" />
                   Kategori
                 </a>
               </li>
