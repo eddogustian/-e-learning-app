@@ -94,6 +94,17 @@
   border-radius: 2px;
 }
 
+.accordion .card-header:after {
+  font-family: 'FontAwesome';
+  content: "\f068";
+  float: right;
+}
+
+.accordion .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067";
+}
+
 #footer {
   height: 175px;
   background: #AA222F;

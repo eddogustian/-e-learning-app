@@ -4,6 +4,7 @@ import Navigation from "./components/NavSection";
 import Tentang from "./components/TentangSection";
 import Konten from "./components/KontenSection";
 import Persyaratan from "./components/PersyaratanSection";
+import PembuatKursus from "./components/PembuatKursusSection";
 import Ulasan from "./components/UlasanSection";
 import Kursus from "./components/KursusLainSection";
 import Footer from "./components/FooterSection";
@@ -16,6 +17,7 @@ const App = () => {
       <Tentang />
       <Konten />
       <Persyaratan />
+      <PembuatKursus />
       <Ulasan />
       <Kursus />
       <Footer />
