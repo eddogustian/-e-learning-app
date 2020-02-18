@@ -87,11 +87,11 @@ const Navigation = () => {
                 </h2>
               </div>
               <div className="_headerContet">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
                 <span className="title-rating">
                   5 (11 Ratings), 11 Peserta Terdaftar
                 </span>

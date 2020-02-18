@@ -9,12 +9,12 @@ import playstore from "./../assets/images/playstore.png";
 
 const Footer = () => {
   return (
-    <footer id="footer" classNameName="py-4 bg-footer-cermati text-white-50">
+    <footer id="footer" className="py-4 bg-footer-cermati text-white-50">
       <div className="container text-center">
         <div className="row">
           <div className="col-auto mr-auto"></div>
           <div className="col-auto">
-            <di className="foot-link-download">
+            <div className="foot-link-download">
               <ul>
                 <li className="playstore">
                   <a href="/#">
@@ -37,7 +37,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-            </di>
+            </div>
             <div className="foot-link-sosmed">
               <ul>
                 <li className="fb">

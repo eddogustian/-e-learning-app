@@ -105,6 +105,12 @@
   content: "\f067";
 }
 
+.btn-kursuslain {
+  border: 1px solid #8154EF;
+  box-sizing: border-box;
+  border-radius: 36px;
+}
+
 #footer {
   background: #AA222F;
 }

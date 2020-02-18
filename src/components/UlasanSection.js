@@ -12,11 +12,11 @@ const Ulasan = () => {
             <div className="col-xs-12 col-md-3 text-center">
               <h1 className="rating-num">5</h1>
               <div className="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
               </div>
               <div>
                 <span className="glyphicon glyphicon-user"></span>1 Peringkat
@@ -26,10 +26,10 @@ const Ulasan = () => {
             <div className="col-xs-12 col-md-6">
               <div className="row rating-desc">
                 <div className="col-xs-3 col-md-3 text-right">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>5
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>5
                 </div>
                 <div className="col-xs-8 col-md-9">
                   <div className="progress progress-striped">
@@ -45,7 +45,7 @@ const Ulasan = () => {
                   </div>
                 </div>
                 <div className="col-xs-3 col-md-3 text-right">
-                  <span class="fa fa-star checked"></span>4
+                  <span className="fa fa-star checked"></span>4
                 </div>
                 <div className="col-xs-8 col-md-9">
                   <div className="progress">
@@ -61,7 +61,7 @@ const Ulasan = () => {
                   </div>
                 </div>
                 <div className="col-xs-3 col-md-3 text-right">
-                  <span class="fa fa-star checked"></span>3
+                  <span className="fa fa-star checked"></span>3
                 </div>
                 <div className="col-xs-8 col-md-9">
                   <div className="progress">
@@ -77,7 +77,7 @@ const Ulasan = () => {
                   </div>
                 </div>
                 <div className="col-xs-3 col-md-3 text-right">
-                  <span class="fa fa-star checked"></span>2
+                  <span className="fa fa-star checked"></span>2
                 </div>
                 <div className="col-xs-8 col-md-9">
                   <div className="progress">
@@ -93,7 +93,7 @@ const Ulasan = () => {
                   </div>
                 </div>
                 <div className="col-xs-3 col-md-3 text-right">
-                  <span class="fa fa-star checked"></span>1
+                  <span className="fa fa-star checked"></span>1
                 </div>
                 <div className="col-xs-8 col-md-9">
                   <div className="progress">

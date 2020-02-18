@@ -11,7 +11,7 @@ const Persyaratan = () => {
         <div className="col-md-9">
           <h4>Persyaratan Kursus </h4>
           <img src={line} className="line" alt="line" width="1.5%" />
-          <di>
+          <div>
             <h4>Kursus ini memiliki 3 Persyaratan, diantaranya :</h4>
             <ul>
               <li>
@@ -27,7 +27,7 @@ const Persyaratan = () => {
                 Pesrta adalah semua orang
               </li>
             </ul>
-          </di>
+          </div>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ const PembuatKursus = () => {
         <div className="col-md-9">
           <h4>Pembuat Kursus </h4>
           <img src={line} className="line" alt="line" width="11.5%" />
-          <div class="card mb-3">
+          <div className="card mb-3">
             <div className="row no-gutters">
               <div className="col-md-4">
                 <div className="col-md-5">
@@ -19,10 +19,10 @@ const PembuatKursus = () => {
                   <h5 className="card-title">xxxxxxxxxxx</h5>
                   <p className="card-text">Instruktur</p>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item border-0">Ulasan</li>
-                  <li class="list-group-item border-0">Peserta Kursus</li>
-                  <li class="list-group-item border-0">Kursus</li>
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item border-0">Ulasan</li>
+                  <li className="list-group-item border-0">Peserta Kursus</li>
+                  <li className="list-group-item border-0">Kursus</li>
                 </ul>
               </div>
               <div className="col-md-8">
