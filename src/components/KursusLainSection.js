@@ -6,13 +6,13 @@ import gambarthree from "./../assets/images/kursuslain/gambar3.png";
 
 const KursusLain = () => {
   return (
-    <section className="contentKursusLain">
+    <section className="contentKursusLain" id="kursusLain">
       <div className="container">
         <div className="row">
           <div className="col-md-9">
             <h4>Kursus lainnya</h4>
-            <img src={line} className="line" alt="line" width="11.5%" />
-            <div className="row">
+            <img src={line} className="line" alt="line" width="100" />
+            <div className="row mt-3">
               <div className="col-md-4">
                 <div className="card mb-4">
                   <img

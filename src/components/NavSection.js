@@ -11,7 +11,7 @@ const Navigation = () => {
       header={
         <nav className="navbar navbar-expand-lg navbar-light" id="header">
           <a className="navbar-brand" href="/#">
-            <img src={ylreal} className="ylreal" alt="ylreal" width="25%" />
+            <img src={ylreal} className="ylreal" alt="ylreal" width="100" />
           </a>
           <button
             className="navbar-toggler"
@@ -29,7 +29,7 @@ const Navigation = () => {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="/#">
-                  <img src={ktgr} className="ktgr" alt="ktgr" width="25%" />
+                  <img src={ktgr} className="ktgr" alt="ktgr" width="20" />
                   Kategori
                 </a>
               </li>

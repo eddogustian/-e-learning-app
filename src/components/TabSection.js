@@ -1,7 +1,7 @@
 import React from "react";
 const Tabs = () => {
   return (
-    <section id={"Menu"}>
+    <nav id={"Menu"}>
       <div className="container">
         <ol className="breadcrumb purple lighten-4">
           <li className="bred-item">
@@ -47,7 +47,7 @@ const Tabs = () => {
           </div>
         </div>
       </div>
-    </section>
+    </nav>
   );
 };
 export default Tabs;

@@ -8,8 +8,8 @@ const Ulasan = () => {
         <div className="row">
           <div className="col-md-9">
             <h4>Ulasan Peserta</h4>
-            <img src={line} className="line" alt="line" width="11.5%" />
-            <div className="row">
+            <img src={line} className="line" alt="line" width="100" />
+            <div className="row mt-3">
               <div className="col-xs-12 col-md-3 text-center">
                 <h1 className="rating-num">5</h1>
                 <div className="rating">
@@ -19,9 +19,8 @@ const Ulasan = () => {
                   <span className="fa fa-star checked"></span>
                   <span className="fa fa-star checked"></span>
                 </div>
-                <div>
-                  <span className="glyphicon glyphicon-user"></span>1 Peringkat
-                  Kursus
+                <div className="rating-desc">
+                  <h5>1 Peringkat Kursus</h5>
                 </div>
               </div>
               <div className="col-xs-12 col-md-6">

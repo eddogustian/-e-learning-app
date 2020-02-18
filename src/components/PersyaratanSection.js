@@ -11,26 +11,26 @@ const Persyaratan = () => {
         <div className="row">
           <div className="col-md-9">
             <h4>Persyaratan Kursus </h4>
-            <img src={line} className="line" alt="line" width="1.5%" />
-            <div>
-              <h4>Kursus ini memiliki 3 Persyaratan, diantaranya :</h4>
+            <img src={line} className="line" alt="line" width="100" />
+            <div className="mt-4">
+              <h5>Kursus ini memiliki 3 Persyaratan, diantaranya :</h5>
               <ul>
                 <li>
-                  <img src={globe} className="line" alt="line" width="1.5%" />
-                  Menggunakan Bahasa Indonesia
+                  <img src={globe} className="globe" alt="globe" width="20" />
+                  <span>Menggunakan Bahasa Indonesia</span>
                 </li>
                 <li>
                   <img
                     src={trending}
-                    className="line"
-                    alt="line"
-                    width="1.5%"
+                    className="trending"
+                    alt="trending"
+                    width="20"
                   />
-                  Level Pemula
+                  <span>Level Pemula</span>
                 </li>
                 <li>
-                  <img src={users} className="line" alt="line" width="1.5%" />
-                  Pesrta adalah semua orang
+                  <img src={users} className="users" alt="users" width="20" />
+                  <span>Pesrta adalah semua orang</span>
                 </li>
               </ul>
             </div>

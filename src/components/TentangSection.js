@@ -8,7 +8,7 @@ const Tentang = () => {
         <div className="row">
           <div className="col-md-9">
             <h4>Tentang Kursus</h4>
-            <img src={line} className="line" alt="line" width="11.5%" />
+            <img src={line} className="line" alt="line" width="100" />
             <p>
               Program ini menjelaskan Manajemen Kinerja Individu berbasis
               Balanced Scorecard lewat sebuah studi kasus Rumah Lilin, sehingga

@@ -33,6 +33,160 @@
   color: #ffffff;
 }
 
+#tentang h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  letter-spacing: 0.0025em;
+  color: #505763;
+}
+#tentang p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.0025em;
+  color: #494e56;
+}
+#konten h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  letter-spacing: 0.0025em;
+  color: #505763;
+}
+#konten #accordion .card-header h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #000000;
+}
+#konten #accordion .card-header p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 160% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+
+  color: #494e56;
+}
+#konten #accordion .card-body .blockquote p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0;
+}
+#persyaratan h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  letter-spacing: 0.0025em;
+  color: #505763;
+}
+#persyaratan h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 140% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+
+  color: #000000;
+}
+#persyaratan ul li span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #494e56;
+  margin-left: 1rem;
+}
+#pembuatKursus h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  letter-spacing: 0.0025em;
+  color: #505763;
+}
+#pembuatKursus .card-body .card-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.0025em;
+  color: #494e56;
+}
+#pembuatKursus .card-body h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #aa222f;
+}
+#ulasan h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  letter-spacing: 0.0025em;
+  color: #505763;
+}
+#ulasan .mt-3 .rating-num {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 21px;
+  color: #686f7a;
+}
+#ulasan .mt-3 .rating-desc h5 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  /* identical to box height, or 143% */
+
+  color: #686f7a;
+}
+#kursusLain h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  letter-spacing: 0.0025em;
+  color: #505763;
+}
+section {
+  padding: 50px 0;
+}
+
 .title-rating {
   margin-left: 2rem;
   color: #ffffff;
@@ -59,7 +213,7 @@
 }
 
 .checked {
-  color: orange;
+  color: #f4ec2d;
 }
 
 #btnMasuk {
@@ -161,7 +315,7 @@
   font-size: 20px;
 }
 
-#tabs .breadcrumb {
+#Menu .breadcrumb {
   background-color: transparent;
 }
 

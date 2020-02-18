@@ -8,16 +8,16 @@ const Konten = () => {
         <div className="row">
           <div className="col-md-9">
             <h4>Konten Kursus</h4>
-            <img src={line} className="line" alt="line" width="11.5%" />
+            <img src={line} className="line" alt="line" width="100" />
             <div id="accordion" className="accordion">
-              <div className="card mb-0">
+              <div className="card mb-0 mt-3">
                 <div className="card">
                   <div className="card-header">
-                    <h4>
+                    <h5>
                       Rumah Lilin : Manajemen Kinerja Individu Berbasis Balanced
                       Scorecard (BSC)
-                    </h4>
-                    <smal>5 Pelajaran dengan durasi 30 Menit</smal>
+                    </h5>
+                    <p>5 Pelajaran dengan durasi 30 Menit</p>
                   </div>
                   <div className="card-body">
                     <blockquote className="blockquote mb-0">
@@ -31,8 +31,8 @@ const Konten = () => {
                   href="#collapseOne"
                 >
                   <span className="card-title">
-                    <h4>Penejelasan dengan PDF</h4>
-                    <smal>2 Materi dengan PDF</smal>
+                    <h5>Penejelasan dengan PDF</h5>
+                    <p>2 Materi dengan PDF</p>
                   </span>
                 </div>
                 <div
@@ -50,8 +50,8 @@ const Konten = () => {
                   href="#collapseTwo"
                 >
                   <span className="card-title">
-                    <h4>Penejelasan dengan Video</h4>
-                    <smal>2 Materi dengan Video</smal>
+                    <h5>Penejelasan dengan Video</h5>
+                    <p>2 Materi dengan Video</p>
                   </span>
                 </div>
                 <div
