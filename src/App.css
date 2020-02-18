@@ -111,6 +111,40 @@
   border-radius: 36px;
 }
 
+/* tabs */
+
+#tabs {
+  background: transparent;
+  color: #686F7A;
+}
+
+#tabs h6.section-title {
+  color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #AA222F !important;
+  background-color: transparent;
+  border-color: transparent transparent #EEEEEE;
+  border-bottom: 4px solid #AA222F !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#tabs .nav-tabs .nav-link {
+  border-bottom: 2px solid #EEEEEE;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  color: #686F7A;
+  font-size: 20px;
+}
+
+#tabs .breadcrumb {
+  background-color: transparent;
+}
+
+/* tabs end */
+
 #footer {
   background: #AA222F;
 }
