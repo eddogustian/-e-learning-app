@@ -12,10 +12,6 @@
   border-radius: 0px;
 }
 
-#headerContent {
-  padding: 2rem 0;
-}
-
 ._headerContent {
   padding: 2rem 0;
 }
@@ -42,6 +38,7 @@
   letter-spacing: 0.0025em;
   color: #505763;
 }
+
 #tentang p {
   font-style: normal;
   font-weight: 300;
@@ -50,6 +47,7 @@
   letter-spacing: 0.0025em;
   color: #494e56;
 }
+
 #konten h4 {
   font-style: normal;
   font-weight: bold;
@@ -59,6 +57,7 @@
   letter-spacing: 0.0025em;
   color: #505763;
 }
+
 #konten #accordion .card-header h5 {
   font-style: normal;
   font-weight: normal;
@@ -69,19 +68,19 @@
   letter-spacing: 0.0025em;
   color: #000000;
 }
+
 #konten #accordion .card-header p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
   /* or 160% */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
-
   color: #494e56;
 }
+
 #konten #accordion .card-body .blockquote p {
   font-style: normal;
   font-weight: normal;
@@ -91,6 +90,7 @@
   align-items: center;
   letter-spacing: 0;
 }
+
 #persyaratan h4 {
   font-style: normal;
   font-weight: bold;
@@ -100,19 +100,19 @@
   letter-spacing: 0.0025em;
   color: #505763;
 }
+
 #persyaratan h5 {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   /* or 140% */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
-
   color: #000000;
 }
+
 #persyaratan ul li span {
   font-style: normal;
   font-weight: normal;
@@ -123,6 +123,7 @@
   color: #494e56;
   margin-left: 1rem;
 }
+
 #pembuatKursus h4 {
   font-style: normal;
   font-weight: bold;
@@ -132,6 +133,7 @@
   letter-spacing: 0.0025em;
   color: #505763;
 }
+
 #pembuatKursus .card-body .card-text {
   font-style: normal;
   font-weight: 300;
@@ -140,6 +142,7 @@
   letter-spacing: 0.0025em;
   color: #494e56;
 }
+
 #pembuatKursus .card-body h5 {
   font-style: normal;
   font-weight: 600;
@@ -147,6 +150,7 @@
   line-height: 21px;
   color: #aa222f;
 }
+
 #ulasan h4 {
   font-style: normal;
   font-weight: bold;
@@ -156,6 +160,7 @@
   letter-spacing: 0.0025em;
   color: #505763;
 }
+
 #ulasan .mt-3 .rating-num {
   font-family: Open Sans;
   font-style: normal;
@@ -164,6 +169,7 @@
   line-height: 21px;
   color: #686f7a;
 }
+
 #ulasan .mt-3 .rating-desc h5 {
   font-family: Open Sans;
   font-style: normal;
@@ -171,9 +177,9 @@
   font-size: 15px;
   line-height: 21px;
   /* identical to box height, or 143% */
-
   color: #686f7a;
 }
+
 #kursusLain h4 {
   font-style: normal;
   font-weight: bold;
@@ -183,6 +189,7 @@
   letter-spacing: 0.0025em;
   color: #505763;
 }
+
 section {
   padding: 50px 0;
 }
@@ -246,6 +253,7 @@ section {
   background: #ff4e4e;
   border-radius: 2px;
 }
+
 #_menu {
   border-bottom: 2px solid #eeeeee;
   border-top-left-radius: 0.25rem;
@@ -253,6 +261,7 @@ section {
   color: #686f7a;
   font-size: 20px;
 }
+
 #_menu ._menuChild .nav-item .nav-link.active {
   color: #aa222f !important;
   background-color: transparent;
@@ -261,6 +270,7 @@ section {
   font-size: 20px;
   font-weight: bold;
 }
+
 ._menuChild {
   display: -ms-flexbox;
   display: flex;
@@ -297,8 +307,7 @@ section {
   color: #eee;
 }
 
-#tabs .nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #aa222f !important;
   background-color: transparent;
   border-color: transparent transparent #eeeeee;
@@ -325,11 +334,9 @@ section {
   background: #aa222f;
 }
 
-.foot-link-download {
-}
+.foot-link-download {}
 
-.foot-link-download ul li a {
-}
+.foot-link-download ul li a {}
 
 .foot-link-download ul li {
   list-style-type: none;

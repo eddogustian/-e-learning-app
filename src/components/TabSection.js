@@ -1,9 +1,17 @@
 import React from "react";
+import home from "./../assets/images/home.png";
+
 const Tabs = () => {
   return (
     <nav id={"Menu"}>
       <div className="container">
         <ol className="breadcrumb purple lighten-4">
+          <li className="bred-item">
+            <a className="black-text" href="/#">
+              <img src={home} className="home" alt="home" width="15" />
+            </a>
+            <i className="fa fa-angle-right mx-2" aria-hidden="true"></i>
+          </li>
           <li className="bred-item">
             <a className="black-text" href="/#">
               Semua Kursus
