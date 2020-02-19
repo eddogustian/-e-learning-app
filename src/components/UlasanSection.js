@@ -23,14 +23,8 @@ const Ulasan = () => {
                   <h5>1 Peringkat Kursus</h5>
                 </div>
               </div>
-              <div className="col-xs-12 col-md-6">
+              <div className="col-xs-12 col-md-9">
                 <div className="row rating-desc">
-                  <div className="col-xs-3 col-md-3 text-right">
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>5
-                  </div>
                   <div className="col-xs-8 col-md-9">
                     <div className="checkedProgress progress-striped">
                       <div
@@ -45,7 +39,10 @@ const Ulasan = () => {
                     </div>
                   </div>
                   <div className="col-xs-3 col-md-3 text-right">
-                    <span className="fa fa-star checked"></span>4
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>100%
                   </div>
                   <div className="col-xs-8 col-md-9">
                     <div className="progress">
@@ -61,7 +58,7 @@ const Ulasan = () => {
                     </div>
                   </div>
                   <div className="col-xs-3 col-md-3 text-right">
-                    <span className="fa fa-star checked"></span>3
+                    <span className="fa fa-star checked"></span>0%
                   </div>
                   <div className="col-xs-8 col-md-9">
                     <div className="progress">
@@ -77,8 +74,9 @@ const Ulasan = () => {
                     </div>
                   </div>
                   <div className="col-xs-3 col-md-3 text-right">
-                    <span className="fa fa-star checked"></span>2
+                    <span className="fa fa-star checked"></span>0%
                   </div>
+
                   <div className="col-xs-8 col-md-9">
                     <div className="progress">
                       <div
@@ -93,8 +91,9 @@ const Ulasan = () => {
                     </div>
                   </div>
                   <div className="col-xs-3 col-md-3 text-right">
-                    <span className="fa fa-star checked"></span>1
+                    <span className="fa fa-star checked"></span>0%
                   </div>
+
                   <div className="col-xs-8 col-md-9">
                     <div className="progress">
                       <div
@@ -107,6 +106,9 @@ const Ulasan = () => {
                         <span className="sr-only">15%</span>
                       </div>
                     </div>
+                  </div>
+                  <div className="col-xs-3 col-md-3 text-right">
+                    <span className="fa fa-star checked"></span>0%
                   </div>
                 </div>
               </div>
