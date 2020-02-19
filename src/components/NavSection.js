@@ -5,6 +5,7 @@ import ylreal from "./../assets/images/ylreal.png";
 import ktgr from "./../assets/images/header/grid.png";
 import foto from "./../assets/images/header/Rectangle 157.png";
 import clock from "./../assets/images/header/clock.png";
+import cart from "./../assets/images/header/mdi-light_cart.png";
 
 import edit from "./../assets/images/checkout/edit.png";
 import file from "./../assets/images/checkout/file-text.png";
@@ -54,6 +55,16 @@ const Navigation = () => {
               <li className="nav-item active">
                 <a className="nav-link" href="/#">
                   Sebagai Instruktur
+                </a>
+              </li>
+              <li className="nav-item active">
+                <a className="nav-link" href="/#">
+                  <div className="vl"></div>
+                </a>
+              </li>
+              <li className="nav-item active">
+                <a className="nav-link" href="/#">
+                  <img src={cart} className="cart" alt="cart" width="20" />
                 </a>
               </li>
               <li className="nav-item">
