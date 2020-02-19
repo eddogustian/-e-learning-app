@@ -24,7 +24,11 @@ const Tabs = () => {
             </a>
             <i className="fa fa-angle-right mx-2" aria-hidden="true"></i>
           </li>
-          <li className="bred-item active">Detail</li>
+          <li className="bred-item active">
+            <a className="black-text" href="/#">
+              Detail
+            </a>
+          </li>
         </ol>
         <div className="row">
           <div className="col-xs-12 col-md-8">
