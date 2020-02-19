@@ -6,6 +6,12 @@ import ktgr from "./../assets/images/header/grid.png";
 import foto from "./../assets/images/header/Rectangle 157.png";
 import clock from "./../assets/images/header/clock.png";
 
+import edit from "./../assets/images/checkout/edit.png";
+import file from "./../assets/images/checkout/file-text.png";
+import monitor from "./../assets/images/checkout/monitor.png";
+import unlock from "./../assets/images/checkout/unlock.png";
+import video from "./../assets/images/checkout/video.png";
+
 const Navigation = () => {
   return (
     <StickyHeader
@@ -133,11 +139,41 @@ const Navigation = () => {
                 <div className="card-body">
                   <h5 className="card-title">Kursus ini terdiri dari :</h5>
                   <div className="card-text">
-                    <p>30 Menit durasi video</p>
-                    <p>5 Materi Bacaan</p>
-                    <p>Akses seumur hidup</p>
-                    <p>Akses diwebsite dan mobile</p>
-                    <p>Tugas</p>
+                    <p>
+                      <img
+                        src={video}
+                        className="video"
+                        alt="video"
+                        width="17"
+                      />
+                      30 Menit durasi video
+                    </p>
+                    <p>
+                      <img src={file} className="file" alt="file" width="17" />5
+                      Materi Bacaan
+                    </p>
+                    <p>
+                      <img
+                        src={unlock}
+                        className="unlock"
+                        alt="unlock"
+                        width="17"
+                      />
+                      Akses seumur hidup
+                    </p>
+                    <p>
+                      <img
+                        src={monitor}
+                        className="monitor"
+                        alt="monitor"
+                        width="17"
+                      />
+                      Akses diwebsite dan mobile
+                    </p>
+                    <p>
+                      <img src={edit} className="edit" alt="edit" width="17" />
+                      Tugas
+                    </p>
                   </div>
                 </div>
               </div>
