@@ -280,6 +280,10 @@ section {
   color: #f4ec2d;
 }
 
+.unchecked {
+  color: #EAEAEA;
+}
+
 #btnMasuk {
   font-family: Nunito Sans;
   font-style: normal;

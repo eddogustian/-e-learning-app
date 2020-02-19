@@ -25,7 +25,7 @@ const Ulasan = () => {
               </div>
               <div className="col-xs-12 col-md-9">
                 <div className="row rating-desc">
-                  <div className="col-xs-8 col-md-9">
+                  <div className="col-xs-8 col-md-8">
                     <div className="checkedProgress progress-striped">
                       <div
                         className="progress-bar progress-bar-success"
@@ -38,13 +38,21 @@ const Ulasan = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xs-3 col-md-3 text-right">
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>100%
+                  <div className="col-xs-3 col-md-4 text-right">
+                    <div class="d-flex flex-row">
+                      <div class="p-2">
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
+                      </div>
+                      <div class="p-2">
+                        <span className="persen"> 100%</span>
+                      </div>
+                    </div>
                   </div>
-                  <div className="col-xs-8 col-md-9">
+                  <div className="col-xs-8 col-md-8">
                     <div className="progress">
                       <div
                         className="progress-bar progress-bar-success"
@@ -57,10 +65,21 @@ const Ulasan = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xs-3 col-md-3 text-right">
-                    <span className="fa fa-star checked"></span>0%
+                  <div className="col-xs-3 col-md-4 text-right">
+                    <div class="d-flex flex-row">
+                      <div class="p-2">
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star unchecked"></span>
+                      </div>
+                      <div class="p-2">
+                        <span className="persen">0%</span>
+                      </div>
+                    </div>
                   </div>
-                  <div className="col-xs-8 col-md-9">
+                  <div className="col-xs-8 col-md-8">
                     <div className="progress">
                       <div
                         className="progress-bar progress-bar-info"
@@ -73,11 +92,22 @@ const Ulasan = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xs-3 col-md-3 text-right">
-                    <span className="fa fa-star checked"></span>0%
+                  <div className="col-xs-3 col-md-4 text-right">
+                    <div class="d-flex flex-row">
+                      <div class="p-2">
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star unchecked"></span>
+                        <span className="fa fa-star unchecked"></span>
+                      </div>
+                      <div class="p-2">
+                        <span className="persen">0%</span>
+                      </div>
+                    </div>
                   </div>
 
-                  <div className="col-xs-8 col-md-9">
+                  <div className="col-xs-8 col-md-8">
                     <div className="progress">
                       <div
                         className="progress-bar progress-bar-warning"
@@ -90,11 +120,22 @@ const Ulasan = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xs-3 col-md-3 text-right">
-                    <span className="fa fa-star checked"></span>0%
+                  <div className="col-xs-3 col-md-4 text-right">
+                    <div class="d-flex flex-row">
+                      <div class="p-2">
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star unchecked"></span>
+                        <span className="fa fa-star unchecked"></span>
+                        <span className="fa fa-star unchecked"></span>
+                      </div>
+                      <div class="p-2">
+                        <span className="persen">0%</span>
+                      </div>
+                    </div>
                   </div>
 
-                  <div className="col-xs-8 col-md-9">
+                  <div className="col-xs-8 col-md-8">
                     <div className="progress">
                       <div
                         className="progress-bar progress-bar-danger"
@@ -107,8 +148,19 @@ const Ulasan = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xs-3 col-md-3 text-right">
-                    <span className="fa fa-star checked"></span>0%
+                  <div className="col-xs-3 col-md-4 text-right">
+                    <div class="d-flex flex-row">
+                      <div class="p-2">
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star unchecked"></span>
+                        <span className="fa fa-star unchecked"></span>
+                        <span className="fa fa-star unchecked"></span>
+                        <span className="fa fa-star unchecked"></span>
+                      </div>
+                      <div class="p-2">
+                        <span className="persen"> 0%</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
