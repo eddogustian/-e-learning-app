@@ -6,7 +6,7 @@ const Konten = () => {
     <section className="contentSection" id={"konten"}>
       <div className="container">
         <div className="row">
-          <div className="col-md-9">
+          <div className="col-md-8">
             <h4>Konten Kursus</h4>
             <img src={line} className="line" alt="line" width="100" />
             <div id="accordion" className="accordion">

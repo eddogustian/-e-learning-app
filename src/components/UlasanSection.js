@@ -11,7 +11,7 @@ const Ulasan = () => {
     <section className="contentUlasan" id={"ulasan"}>
       <div className="container">
         <div className="row">
-          <div className="col-md-9">
+          <div className="col-md-8">
             <h4>Ulasan Peserta</h4>
             <img src={line} className="line" alt="line" width="100" />
             <div className="row mt-3">
@@ -174,7 +174,7 @@ const Ulasan = () => {
         </div>
         {/* row end */}
         <div className="row mt-5">
-          <div className="col-md-9">
+          <div className="col-md-8">
             <div className="row" id="descUlasan">
               <div className="col-xs-12 col-md-3 text-center">
                 <div className="d-flex flex-row row">

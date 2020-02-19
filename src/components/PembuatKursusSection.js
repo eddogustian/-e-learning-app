@@ -10,7 +10,7 @@ const PembuatKursus = () => {
     <section className="contentPembuatKusus" id="pembuatKursus">
       <div className="container">
         <div className="row">
-          <div className="col-md-9">
+          <div className="col-md-8">
             <h4>Pembuat Kursus </h4>
             <img src={line} className="line" alt="line" width="100" />
             <div className="card mb-3 mt-3 border-0">

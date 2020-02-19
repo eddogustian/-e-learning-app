@@ -6,7 +6,7 @@ const Tentang = () => {
     <section className="ContentTentang" id={"tentang"}>
       <div className="container">
         <div className="row">
-          <div className="col-md-9">
+          <div className="col-md-8">
             <h4>Tentang Kursus</h4>
             <img src={line} className="line" alt="line" width="100" />
             <p>
