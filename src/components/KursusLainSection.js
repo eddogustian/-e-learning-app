@@ -3,6 +3,7 @@ import line from "./../assets/images/line.png";
 import gambarone from "./../assets/images/kursuslain/gambar1.png";
 import gambartwo from "./../assets/images/kursuslain/gambar2.png";
 import gambarthree from "./../assets/images/kursuslain/gambar3.png";
+import fotosatu from "./../assets/images/kursuslain/foto1.png";
 
 const KursusLain = () => {
   return (
@@ -28,8 +29,32 @@ const KursusLain = () => {
                       Motivation
                     </a>
                     <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      <div class="d-flex flex-row">
+                        <div class="p-2">
+                          <img
+                            className="fotosatu"
+                            src={fotosatu}
+                            alt="fotosatu"
+                            width="40"
+                          />
+                        </div>
+                        <div class="p-2 titleName">
+                          <h5>Cyntha Aghta</h5>
+                          <p>Instruktur</p>
+                          <div className="rating">
+                            <p className="star">
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star checked"></span>
+                              <span className="countUlas">(11 Ulasan)</span>
+                            </p>
+                            <p className="priceAwal">Rp 200.00</p>
+                            <p className="discont">Rp 100.000</p>
+                          </div>
+                        </div>
+                      </div>
                     </p>
                   </div>
                 </div>

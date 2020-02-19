@@ -307,6 +307,72 @@
   color: #505763;
 }
 
+#kursusLain .rating .fa-star {
+  font-size: 12px;
+  color: #FFB801;
+}
+
+#kursusLain .rating .countUlas {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+  display: flex;
+  align-items: center;
+  color: #505763;
+}
+
+#kursusLain .titleName h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+  display: flex;
+  align-items: center;
+  color: #505763;
+}
+
+#kursusLain .titleName p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  /* or 145% */
+  display: flex;
+  align-items: center;
+  color: #505763;
+}
+
+#kursusLain .rating .star {
+  padding: 8px 0;
+}
+
+#kursusLain .rating .priceAwal {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+  display: flex;
+  align-items: center;
+  color: #505763;
+  text-decoration: line-through red;
+}
+
+#kursusLain .rating .discont {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  /* identical to box height, or 89% */
+  display: flex;
+  align-items: center;
+  color: #29303B;
+  margin-top: 12px;
+}
+
 section {
   padding: 50px 0;
 }
