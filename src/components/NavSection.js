@@ -109,10 +109,10 @@ const Navigation = () => {
                 <img className="card-img-top" src={foto} alt="foto" />
                 <div className="card-body">
                   <h5 className="card-title">Jenis Kursus :</h5>
-                  <p className="card-text">
+                  <div className="card-text">
                     <p className="float-right">Kursus Komplit</p>
                     <p className="float-left">Kursus Pendek</p>
-                  </p>
+                  </div>
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item">
@@ -131,14 +131,14 @@ const Navigation = () => {
                   </li>
                 </ul>
                 <div className="card-body">
-                  <h5 class="card-title">Kursus ini terdiri dari :</h5>
-                  <p class="card-text">
+                  <h5 className="card-title">Kursus ini terdiri dari :</h5>
+                  <div className="card-text">
                     <p>30 Menit durasi video</p>
                     <p>5 Materi Bacaan</p>
                     <p>Akses seumur hidup</p>
                     <p>Akses diwebsite dan mobile</p>
                     <p>Tugas</p>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>

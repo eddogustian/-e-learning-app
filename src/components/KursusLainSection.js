@@ -30,9 +30,9 @@ const KursusLain = () => {
                     <a href="/#" className="btn btn-sm btn-kursuslain">
                       Motivation
                     </a>
-                    <p className="card-text">
-                      <div class="d-flex flex-row">
-                        <div class="p-2">
+                    <div className="card-text">
+                      <div className="d-flex flex-row">
+                        <div className="p-2">
                           <img
                             className="fotosatu"
                             src={fotosatu}
@@ -40,7 +40,7 @@ const KursusLain = () => {
                             width="40"
                           />
                         </div>
-                        <div class="p-2 titleName">
+                        <div className="p-2 titleName">
                           <h5>Cyntha Aghta</h5>
                           <p>Instruktur</p>
                           <div className="rating">
@@ -57,7 +57,7 @@ const KursusLain = () => {
                           </div>
                         </div>
                       </div>
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -75,9 +75,9 @@ const KursusLain = () => {
                     <a href="/#" className="btn btn-sm btn-kursuslain">
                       Motivation
                     </a>
-                    <p className="card-text">
-                      <div class="d-flex flex-row">
-                        <div class="p-2">
+                    <div className="card-text">
+                      <div className="d-flex flex-row">
+                        <div className="p-2">
                           <img
                             className="fotodua"
                             src={fotodua}
@@ -85,7 +85,7 @@ const KursusLain = () => {
                             width="40"
                           />
                         </div>
-                        <div class="p-2 titleName">
+                        <div className="p-2 titleName">
                           <h5>Cyntha Aghta</h5>
                           <p>Instruktur</p>
                           <div className="rating">
@@ -102,7 +102,7 @@ const KursusLain = () => {
                           </div>
                         </div>
                       </div>
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -120,9 +120,9 @@ const KursusLain = () => {
                     <a href="/#" className="btn btn-sm btn-kursuslain">
                       Motivation
                     </a>
-                    <p className="card-text">
-                      <div class="d-flex flex-row">
-                        <div class="p-2">
+                    <div className="card-text">
+                      <div className="d-flex flex-row">
+                        <div className="p-2">
                           <img
                             className="fototiga"
                             src={fototiga}
@@ -130,7 +130,7 @@ const KursusLain = () => {
                             width="40"
                           />
                         </div>
-                        <div class="p-2 titleName">
+                        <div className="p-2 titleName">
                           <h5>Cyntha Aghta</h5>
                           <p>Instruktur</p>
                           <div className="rating">
@@ -147,7 +147,7 @@ const KursusLain = () => {
                           </div>
                         </div>
                       </div>
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>

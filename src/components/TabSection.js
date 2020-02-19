@@ -27,7 +27,7 @@ const Tabs = () => {
           <li className="bred-item active">Detail</li>
         </ol>
         <div className="row">
-          <div className="col-xs-12 col-md-9">
+          <div className="col-xs-12 col-md-8">
             <div className="_menu" id="_menu">
               <ul className="_menuChild mt-5">
                 <li className="nav-item">
