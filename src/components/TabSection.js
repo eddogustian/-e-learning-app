@@ -31,23 +31,26 @@ const Tabs = () => {
             <div className="_menu" id="_menu">
               <ul className="_menuChild mt-5">
                 <li className="nav-item">
-                  <a className="Navlink js-scroll-trigger" href="#tentang">
-                    Our Benefit
+                  <a
+                    className="Navlink active js-scroll-trigger"
+                    href="#tentang"
+                  >
+                    Tentang
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="Navlink js-scroll-trigger" href="#konten">
-                    Our Client
+                    Konten
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="Navlink js-scroll-trigger" href="#persyaratan">
-                    Features
+                    Persyaratan
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="Navlink js-scroll-trigger" href="#ulasan">
-                    Pricing
+                    Ulasan
                   </a>
                 </li>
               </ul>

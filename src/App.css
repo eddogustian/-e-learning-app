@@ -91,6 +91,28 @@
   letter-spacing: 0;
 }
 
+#konten #accordion #collapseOne p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #000000;
+}
+
+#konten #accordion #collapseTwo p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #000000;
+}
+
 #persyaratan h4 {
   font-style: normal;
   font-weight: bold;
@@ -149,6 +171,41 @@
   font-size: 17px;
   line-height: 21px;
   color: #aa222f;
+}
+
+#pembuatKursus .card .list-group-flush {
+  padding: 0;
+}
+
+#pembuatKursus .card .list-group-flush .flex-row .p-2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  /* or 193% */
+  color: #494E56;
+}
+
+.checkedProgress {
+  margin: 5px 0;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: .75rem;
+  border-radius: .25rem;
+  background-color: #C4C4C4;
+}
+
+.progress {
+  margin: 5px 0;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background: #F3F3F3;
+  border-radius: .25rem;
 }
 
 #ulasan h4 {
@@ -262,7 +319,7 @@ section {
   font-size: 20px;
 }
 
-#_menu ._menuChild .nav-item .nav-link.active {
+#_menu ._menuChild .nav-item .Navlink.active {
   color: #aa222f !important;
   background-color: transparent;
   border-color: transparent transparent #eeeeee;

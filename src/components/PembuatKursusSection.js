@@ -24,45 +24,45 @@ const PembuatKursus = () => {
                   <div className="card-body text-center">
                     <h5 className="card-title">xxxxxxxxxxx</h5>
                     <p className="card-text">Instruktur</p>
+                    <ul className="list-group list-group-flush">
+                      <li className="list-group-item border-0 d-flex flex-row">
+                        <div className="p-2">
+                          <img
+                            src={message}
+                            className="message"
+                            alt="message"
+                            width="20"
+                          />
+                        </div>
+                        <div className="p-2">11</div>
+                        <div className="p-2">Ulasan</div>
+                      </li>
+                      <li className="list-group-item border-0  d-flex flex-row">
+                        <div className="p-2">
+                          <img
+                            src={user}
+                            className="user"
+                            alt="user"
+                            width="20"
+                          />
+                        </div>
+                        <div className="p-2">11</div>
+                        <div className="p-2">Peserta Kursus</div>
+                      </li>
+                      <li className="list-group-item border-0  d-flex flex-row">
+                        <div className="p-2">
+                          <img
+                            src={layer}
+                            className="layer"
+                            alt="layer"
+                            width="20"
+                          />
+                        </div>
+                        <div className="p-2">10</div>
+                        <div className="p-2">Kursus</div>
+                      </li>
+                    </ul>
                   </div>
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item border-0 d-flex flex-row">
-                      <div className="p-2">
-                        <img
-                          src={message}
-                          className="message"
-                          alt="message"
-                          width="20"
-                        />
-                      </div>
-                      <div className="p-2">11</div>
-                      <div className="p-2">Ulasan</div>
-                    </li>
-                    <li className="list-group-item border-0  d-flex flex-row">
-                      <div className="p-2">
-                        <img
-                          src={user}
-                          className="user"
-                          alt="user"
-                          width="20"
-                        />
-                      </div>
-                      <div className="p-2">11</div>
-                      <div className="p-2">Peserta Kursus</div>
-                    </li>
-                    <li className="list-group-item border-0  d-flex flex-row">
-                      <div className="p-2">
-                        <img
-                          src={layer}
-                          className="layer"
-                          alt="layer"
-                          width="20"
-                        />
-                      </div>
-                      <div className="p-2">10</div>
-                      <div className="p-2">Kursus</div>
-                    </li>
-                  </ul>
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">

@@ -32,7 +32,7 @@ const Ulasan = () => {
                     <span className="fa fa-star checked"></span>5
                   </div>
                   <div className="col-xs-8 col-md-9">
-                    <div className="progress progress-striped">
+                    <div className="checkedProgress progress-striped">
                       <div
                         className="progress-bar progress-bar-success"
                         role="progressbar"
