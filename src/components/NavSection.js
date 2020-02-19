@@ -111,7 +111,7 @@ const Navigation = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card">
+              <div className="card" id="cardMain">
                 <img className="card-img-top" src={foto} alt="foto" />
                 <div className="card-body">
                   <h5 className="card-title">Jenis Kursus :</h5>
@@ -121,24 +121,28 @@ const Navigation = () => {
                   </div>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item">
-                    <p>Detail harga kursus pendek</p>
-                    <p>Rp 20.000</p>
+                  <li className="list-group-item border-0 info">
+                    <p className="desc">Detail harga kursus pendek</p>
+                    <p className="price">Rp 20.000</p>
                     <p>
                       <img src={clock} className="ktgr" alt="ktgr" width="20" />
-                      8 hari dengan harga ini
+                      <span className="time">8 hari dengan harga ini</span>
                     </p>
                   </li>
-                  <li className="list-group-item">
-                    <button type="button">Tambah ke Keranjang</button>
+                  <li className="list-group-item border-0 action">
+                    <button type="button" className="btnCart">
+                      Tambah ke Keranjang
+                    </button>
                   </li>
-                  <li className="list-group-item">
-                    <button type="button">Beli Sekarang</button>
+                  <li className="list-group-item border-0 action">
+                    <button type="button" className="btnBuy">
+                      Beli Sekarang
+                    </button>
                   </li>
                 </ul>
-                <div className="card-body">
+                <div className="card-body listKursus">
                   <h5 className="card-title">Kursus ini terdiri dari :</h5>
-                  <div className="card-text">
+                  <div className="card-text listKursusText">
                     <p>
                       <img
                         src={video}
@@ -146,11 +150,13 @@ const Navigation = () => {
                         alt="video"
                         width="17"
                       />
-                      30 Menit durasi video
+                      <span className="listKursusDesc">
+                        30 Menit durasi video
+                      </span>
                     </p>
                     <p>
-                      <img src={file} className="file" alt="file" width="17" />5
-                      Materi Bacaan
+                      <img src={file} className="file" alt="file" width="17" />
+                      <span className="listKursusDesc">5 Materi Bacaan</span>
                     </p>
                     <p>
                       <img
@@ -159,7 +165,7 @@ const Navigation = () => {
                         alt="unlock"
                         width="17"
                       />
-                      Akses seumur hidup
+                      <span className="listKursusDesc">Akses seumur hidup</span>
                     </p>
                     <p>
                       <img
@@ -168,11 +174,13 @@ const Navigation = () => {
                         alt="monitor"
                         width="17"
                       />
-                      Akses diwebsite dan mobile
+                      <span className="listKursusDesc">
+                        Akses diwebsite dan mobile
+                      </span>
                     </p>
                     <p>
                       <img src={edit} className="edit" alt="edit" width="17" />
-                      Tugas
+                      <span className="listKursusDesc">Tugas</span>
                     </p>
                   </div>
                 </div>

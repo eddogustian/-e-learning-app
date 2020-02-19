@@ -15,9 +15,110 @@
 ._headerContent {
   padding: 2rem 0;
 }
-
+#headerCta #cardMain {
+  background: #f2f3f5;
+  border-radius: 0px;
+}
+#headerCta #cardMain .list-group .list-group-item {
+  background: #f2f3f5;
+  border-radius: 0px;
+}
+#headerCta #cardMain .list-group .info .desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 160% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #494e56;
+}
+#headerCta #cardMain .list-group .info .price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #505763;
+}
+#headerCta #cardMain .list-group .info p .time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+  color: #1abc9c;
+}
+#headerCta #cardMain .card-body .card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #505763;
+}
+#headerCta #cardMain .card-body .card-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #494e56;
+}
+#headerCta #cardMain .list-group .action .btnCart {
+  background: #ff4e4e;
+  border-radius: 2px;
+  width: 100%;
+  height: 44px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.0025em;
+  color: #ffffff;
+}
+#headerCta #cardMain .list-group .action .btnBuy {
+  background: #f2f3f5;
+  width: 100%;
+  height: 44px;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.0025em;
+  color: #686f7a;
+}
+#headerCta #cardMain .listKursus .card-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 135% */
+  color: #494e56;
+}
+#headerCta #cardMain .listKursus .listKursusText p .listKursusDesc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 160% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  margin: 5px 10px;
+  color: #494e56;
+}
 #headerCta .title-content {
-  font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -183,7 +284,7 @@
   font-size: 14px;
   line-height: 27px;
   /* or 193% */
-  color: #494E56;
+  color: #494e56;
 }
 
 .checkedProgress {
@@ -192,9 +293,9 @@
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: .75rem;
-  border-radius: .25rem;
-  background-color: #C4C4C4;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+  background-color: #c4c4c4;
 }
 
 .progress {
@@ -203,9 +304,9 @@
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: .75rem;
-  background: #F3F3F3;
-  border-radius: .25rem;
+  font-size: 0.75rem;
+  background: #f3f3f3;
+  border-radius: 0.25rem;
 }
 
 #ulasan h4 {
@@ -246,7 +347,7 @@
   /* or 132% */
   align-items: center;
   letter-spacing: 0.0025em;
-  color: #494E56;
+  color: #494e56;
 }
 
 #descUlasan .titleName p {
@@ -256,7 +357,7 @@
   font-size: 15px;
   line-height: 27px;
   /* identical to box height, or 180% */
-  color: #494E56;
+  color: #494e56;
 }
 
 #descUlasan .descContent .desc {
@@ -269,7 +370,7 @@
   display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
-  color: #494E56;
+  color: #494e56;
 }
 
 /* 
@@ -277,7 +378,8 @@
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
 
 /* 
   ##Device = Tablets, Ipads (portrait)
@@ -292,8 +394,8 @@
 }
 
 #descUlasan {
-  border-top: 1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   padding: 12px 0;
 }
 
@@ -309,7 +411,7 @@
 
 #kursusLain .rating .fa-star {
   font-size: 12px;
-  color: #FFB801;
+  color: #ffb801;
 }
 
 #kursusLain .rating .countUlas {
@@ -369,7 +471,7 @@
   /* identical to box height, or 89% */
   display: flex;
   align-items: center;
-  color: #29303B;
+  color: #29303b;
   margin-top: 12px;
 }
 
@@ -407,7 +509,7 @@ section {
 }
 
 .unchecked {
-  color: #EAEAEA;
+  color: #eaeaea;
 }
 
 #btnMasuk {
@@ -494,7 +596,8 @@ section {
   color: #eee;
 }
 
-#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+#tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
   color: #aa222f !important;
   background-color: transparent;
   border-color: transparent transparent #eeeeee;
@@ -521,9 +624,11 @@ section {
   background: #aa222f;
 }
 
-.foot-link-download {}
+.foot-link-download {
+}
 
-.foot-link-download ul li a {}
+.foot-link-download ul li a {
+}
 
 .foot-link-download ul li {
   list-style-type: none;
