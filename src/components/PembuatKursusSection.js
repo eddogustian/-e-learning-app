@@ -25,7 +25,7 @@ const PembuatKursus = () => {
                   </div>
                   <ul className="list-group list-group-flush">
                     <li className="list-group-item border-0 d-flex flex-row">
-                      <div class="p-2">
+                      <div className="p-2">
                         <img
                           src={message}
                           className="message"
@@ -33,11 +33,11 @@ const PembuatKursus = () => {
                           width="20"
                         />
                       </div>
-                      <div class="p-2">11</div>
-                      <div class="p-2">Ulasan</div>
+                      <div className="p-2">11</div>
+                      <div className="p-2">Ulasan</div>
                     </li>
                     <li className="list-group-item border-0  d-flex flex-row">
-                      <div class="p-2">
+                      <div className="p-2">
                         <img
                           src={user}
                           className="user"
@@ -45,11 +45,11 @@ const PembuatKursus = () => {
                           width="20"
                         />
                       </div>
-                      <div class="p-2">11</div>
-                      <div class="p-2">Peserta Kursus</div>
+                      <div className="p-2">11</div>
+                      <div className="p-2">Peserta Kursus</div>
                     </li>
                     <li className="list-group-item border-0  d-flex flex-row">
-                      <div class="p-2">
+                      <div className="p-2">
                         <img
                           src={layer}
                           className="layer"
@@ -57,8 +57,8 @@ const PembuatKursus = () => {
                           width="20"
                         />
                       </div>
-                      <div class="p-2">10</div>
-                      <div class="p-2">Kursus</div>
+                      <div className="p-2">10</div>
+                      <div className="p-2">Kursus</div>
                     </li>
                   </ul>
                 </div>

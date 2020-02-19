@@ -20,25 +20,25 @@ const Tabs = () => {
         </ol>
         <div className="row">
           <div className="col-xs-12 col-md-9">
-            <div class="_menu" id="_menu">
-              <ul class="_menuChild mt-5">
-                <li class="nav-item">
-                  <a class="Navlink js-scroll-trigger" href="#tentang">
+            <div className="_menu" id="_menu">
+              <ul className="_menuChild mt-5">
+                <li className="nav-item">
+                  <a className="Navlink js-scroll-trigger" href="#tentang">
                     Our Benefit
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="Navlink js-scroll-trigger" href="#konten">
+                <li className="nav-item">
+                  <a className="Navlink js-scroll-trigger" href="#konten">
                     Our Client
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="Navlink js-scroll-trigger" href="#persyaratan">
+                <li className="nav-item">
+                  <a className="Navlink js-scroll-trigger" href="#persyaratan">
                     Features
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="Navlink js-scroll-trigger" href="#ulasan">
+                <li className="nav-item">
+                  <a className="Navlink js-scroll-trigger" href="#ulasan">
                     Pricing
                   </a>
                 </li>
