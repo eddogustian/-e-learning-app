@@ -116,8 +116,41 @@ const Navigation = () => {
                 <div className="card-body">
                   <h5 className="card-title">Jenis Kursus :</h5>
                   <div className="card-text">
-                    <p className="float-right">Kursus Komplit</p>
-                    <p className="float-left">Kursus Pendek</p>
+                    <p className="float-right">
+                      <div className="form-check">
+                        <input
+                          className="form-check-input"
+                          type="radio"
+                          name="exampleRadios"
+                          id="exampleRadios1"
+                          value="option1"
+                          checked
+                        />
+                        <label
+                          className="form-check-label"
+                          for="exampleRadios1"
+                        >
+                          Kursus Komplit
+                        </label>
+                      </div>
+                    </p>
+                    <p className="float-left">
+                      <div class="form-check">
+                        <input
+                          className="form-check-input"
+                          type="radio"
+                          name="exampleRadios"
+                          id="exampleRadios2"
+                          value="option2"
+                        />
+                        <label
+                          className="form-check-label"
+                          for="exampleRadios2"
+                        >
+                          Kursus Pendek
+                        </label>
+                      </div>
+                    </p>
                   </div>
                 </div>
                 <ul className="list-group list-group-flush">
@@ -125,8 +158,15 @@ const Navigation = () => {
                     <p className="desc">Detail harga kursus pendek</p>
                     <p className="price">Rp 20.000</p>
                     <p>
-                      <img src={clock} className="ktgr" alt="ktgr" width="20" />
-                      <span className="time">8 hari dengan harga ini</span>
+                      <img
+                        src={clock}
+                        className="clock"
+                        alt="clock"
+                        width="20"
+                      />
+                      <span className="time">
+                        <b>8 hari</b> dengan harga ini
+                      </span>
                     </p>
                   </li>
                   <li className="list-group-item border-0 action">

@@ -33,6 +33,7 @@
   align-items: center;
   letter-spacing: 0.0025em;
   color: #494e56;
+  margin: 7px 0;
 }
 #headerCta #cardMain .list-group .info .price {
   font-style: normal;
@@ -44,6 +45,15 @@
   letter-spacing: 0.0025em;
   color: #505763;
 }
+#headerCta #cardMain .list-group .info .clock {
+  margin-right: 5px;
+  margin-top: 4px;
+  margin-bottom: -4px;
+}
+/* radio btn custome */
+
+/* radio btn custome end*/
+
 #headerCta #cardMain .list-group .info p .time {
   font-style: normal;
   font-weight: normal;
