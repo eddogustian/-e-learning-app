@@ -1,5 +1,10 @@
 import React from "react";
 import line from "./../assets/images/line.png";
+import fotosatu from "./../assets/images/ulasan/foto1.png";
+import fotodua from "./../assets/images/ulasan/foto2.png";
+import fototiga from "./../assets/images/ulasan/foto3.png";
+import fotoempat from "./../assets/images/ulasan/foto4.png";
+import fotolima from "./../assets/images/ulasan/foto5.png";
 
 const Ulasan = () => {
   return (
@@ -39,15 +44,15 @@ const Ulasan = () => {
                     </div>
                   </div>
                   <div className="col-xs-3 col-md-4 text-right">
-                    <div class="d-flex flex-row">
-                      <div class="p-2">
+                    <div className="d-flex flex-row">
+                      <div className="p-2">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                       </div>
-                      <div class="p-2">
+                      <div className="p-2">
                         <span className="persen"> 100%</span>
                       </div>
                     </div>
@@ -66,15 +71,15 @@ const Ulasan = () => {
                     </div>
                   </div>
                   <div className="col-xs-3 col-md-4 text-right">
-                    <div class="d-flex flex-row">
-                      <div class="p-2">
+                    <div className="d-flex flex-row">
+                      <div className="p-2">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star unchecked"></span>
                       </div>
-                      <div class="p-2">
+                      <div className="p-2">
                         <span className="persen">0%</span>
                       </div>
                     </div>
@@ -93,15 +98,15 @@ const Ulasan = () => {
                     </div>
                   </div>
                   <div className="col-xs-3 col-md-4 text-right">
-                    <div class="d-flex flex-row">
-                      <div class="p-2">
+                    <div className="d-flex flex-row">
+                      <div className="p-2">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star unchecked"></span>
                         <span className="fa fa-star unchecked"></span>
                       </div>
-                      <div class="p-2">
+                      <div className="p-2">
                         <span className="persen">0%</span>
                       </div>
                     </div>
@@ -121,15 +126,15 @@ const Ulasan = () => {
                     </div>
                   </div>
                   <div className="col-xs-3 col-md-4 text-right">
-                    <div class="d-flex flex-row">
-                      <div class="p-2">
+                    <div className="d-flex flex-row">
+                      <div className="p-2">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star unchecked"></span>
                         <span className="fa fa-star unchecked"></span>
                         <span className="fa fa-star unchecked"></span>
                       </div>
-                      <div class="p-2">
+                      <div className="p-2">
                         <span className="persen">0%</span>
                       </div>
                     </div>
@@ -149,15 +154,15 @@ const Ulasan = () => {
                     </div>
                   </div>
                   <div className="col-xs-3 col-md-4 text-right">
-                    <div class="d-flex flex-row">
-                      <div class="p-2">
+                    <div className="d-flex flex-row">
+                      <div className="p-2">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star unchecked"></span>
                         <span className="fa fa-star unchecked"></span>
                         <span className="fa fa-star unchecked"></span>
                         <span className="fa fa-star unchecked"></span>
                       </div>
-                      <div class="p-2">
+                      <div className="p-2">
                         <span className="persen"> 0%</span>
                       </div>
                     </div>
@@ -165,9 +170,193 @@ const Ulasan = () => {
                 </div>
               </div>
             </div>
-            {/* row end */}
           </div>
         </div>
+        {/* row end */}
+        <div className="row mt-5">
+          <div className="col-md-9">
+            <div className="row" id="descUlasan">
+              <div className="col-xs-12 col-md-3 text-center">
+                <div className="d-flex flex-row row">
+                  <div className="p-2 col-xs-12 col-md-4 col-xl-6">
+                    <img
+                      src={fotosatu}
+                      className="fotosatu"
+                      alt="fotosatu"
+                      width="50"
+                    />
+                  </div>
+                  <div className="p-2 col-xs-12 col-md-8 col-xl-6 titleName">
+                    <h5>Cynda</h5>
+                    <p>1 jam lalu</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xs-12 col-md-9 descContent">
+                <div className="d-flex flex-column">
+                  <div className="p-2 star">
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                  </div>
+                  <div className="p-2 desc">
+                    Lorem ipsum dolor sit amet, scaevola lucilius nam ea. Sonet
+                    integre nonumes ea vis, nostrum tractatos sit ex, nec ea
+                    appetere philosophia. Pro dicta adipisci ei. Est eu ullum
+                    vivendo. Nulla eripuit mea ad. Ad cum iracundia posidonium.
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* row end */}
+            <div className="row" id="descUlasan">
+              <div className="col-xs-12 col-md-3 text-center">
+                <div className="d-flex flex-row row">
+                  <div className="p-2 col-xs-12 col-md-4 col-xl-6">
+                    <img
+                      src={fotodua}
+                      className="fotosatu"
+                      alt="fotosatu"
+                      width="50"
+                    />
+                  </div>
+                  <div className="p-2 col-xs-12 col-md-8 col-xl-6 titleName">
+                    <h5>Cynda</h5>
+                    <p>1 jam lalu</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xs-12 col-md-9 descContent">
+                <div className="d-flex flex-column">
+                  <div className="p-2 star">
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                  </div>
+                  <div className="p-2 desc">
+                    Lorem ipsum dolor sit amet, scaevola lucilius nam ea. Sonet
+                    integre nonumes ea vis, nostrum tractatos sit ex, nec ea
+                    appetere philosophia. Pro dicta adipisci ei. Est eu ullum
+                    vivendo. Nulla eripuit mea ad. Ad cum iracundia posidonium.
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* row end */}
+            <div className="row" id="descUlasan">
+              <div className="col-xs-12 col-md-3 text-center">
+                <div className="d-flex flex-row row">
+                  <div className="p-2 col-xs-12 col-md-4 col-xl-6">
+                    <img
+                      src={fototiga}
+                      className="fotosatu"
+                      alt="fotosatu"
+                      width="50"
+                    />
+                  </div>
+                  <div className="p-2 col-xs-12 col-md-8 col-xl-6 titleName">
+                    <h5>Cynda</h5>
+                    <p>1 jam lalu</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xs-12 col-md-9 descContent">
+                <div className="d-flex flex-column">
+                  <div className="p-2 star">
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                  </div>
+                  <div className="p-2 desc">
+                    Lorem ipsum dolor sit amet, scaevola lucilius nam ea. Sonet
+                    integre nonumes ea vis, nostrum tractatos sit ex, nec ea
+                    appetere philosophia. Pro dicta adipisci ei. Est eu ullum
+                    vivendo. Nulla eripuit mea ad. Ad cum iracundia posidonium.
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* row end  */}
+            <div className="row" id="descUlasan">
+              <div className="col-xs-12 col-md-3 text-center">
+                <div className="d-flex flex-row row">
+                  <div className="p-2 col-xs-12 col-md-4 col-xl-6">
+                    <img
+                      src={fotoempat}
+                      className="fotosatu"
+                      alt="fotosatu"
+                      width="50"
+                    />
+                  </div>
+                  <div className="p-2 col-xs-12 col-md-8 col-xl-6 titleName">
+                    <h5>Cynda</h5>
+                    <p>1 jam lalu</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xs-12 col-md-9 descContent">
+                <div className="d-flex flex-column">
+                  <div className="p-2 star">
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                  </div>
+                  <div className="p-2 desc">
+                    Lorem ipsum dolor sit amet, scaevola lucilius nam ea. Sonet
+                    integre nonumes ea vis, nostrum tractatos sit ex, nec ea
+                    appetere philosophia. Pro dicta adipisci ei. Est eu ullum
+                    vivendo. Nulla eripuit mea ad. Ad cum iracundia posidonium.
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* row end */}
+            <div className="row" id="descUlasan">
+              <div className="col-xs-12 col-md-3 text-center">
+                <div className="d-flex flex-row row">
+                  <div className="p-2 col-xs-12 col-md-4 col-xl-6">
+                    <img
+                      src={fotolima}
+                      className="fotosatu"
+                      alt="fotosatu"
+                      width="50"
+                    />
+                  </div>
+                  <div className="p-2 col-xs-12 col-md-8 col-xl-6 titleName">
+                    <h5>Cynda</h5>
+                    <p>1 jam lalu</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xs-12 col-md-9 descContent">
+                <div className="d-flex flex-column">
+                  <div className="p-2 star">
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                  </div>
+                  <div className="p-2 desc">
+                    Lorem ipsum dolor sit amet, scaevola lucilius nam ea. Sonet
+                    integre nonumes ea vis, nostrum tractatos sit ex, nec ea
+                    appetere philosophia. Pro dicta adipisci ei. Est eu ullum
+                    vivendo. Nulla eripuit mea ad. Ad cum iracundia posidonium.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* row end */}
       </div>
     </section>
   );

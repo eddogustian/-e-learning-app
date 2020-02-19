@@ -13,7 +13,7 @@ const PembuatKursus = () => {
           <div className="col-md-9">
             <h4>Pembuat Kursus </h4>
             <img src={line} className="line" alt="line" width="100" />
-            <div className="card mb-3 mt-3">
+            <div className="card mb-3 mt-3 border-0">
               <div className="row no-gutters">
                 <div className="col-md-4">
                   <div className="row mt-3">

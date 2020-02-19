@@ -237,6 +237,66 @@
   color: #686f7a;
 }
 
+#descUlasan .titleName h5 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  /* or 132% */
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #494E56;
+}
+
+#descUlasan .titleName p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height, or 180% */
+  color: #494E56;
+}
+
+#descUlasan .descContent .desc {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 160% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #494E56;
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #descUlasan .flex-row .titleName {
+    position: relative;
+    left: 12px;
+  }
+}
+
+#descUlasan {
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 12px 0;
+}
+
 #kursusLain h4 {
   font-style: normal;
   font-weight: bold;
