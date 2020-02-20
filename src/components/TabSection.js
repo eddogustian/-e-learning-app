@@ -1,5 +1,6 @@
 import React from "react";
 import home from "./../assets/images/home.png";
+import Menu from "./Menu";
 
 const Tabs = () => {
   return (
@@ -34,29 +35,9 @@ const Tabs = () => {
           <div className="col-xs-12 col-md-8">
             <div className="_menu" id="_menu">
               <ul className="_menuChild mt-5">
-                <li className="nav-item">
-                  <a
-                    className="Navlink active js-scroll-trigger"
-                    href="#tentang"
-                  >
-                    Tentang
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="Navlink js-scroll-trigger" href="#konten">
-                    Konten
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="Navlink js-scroll-trigger" href="#persyaratan">
-                    Persyaratan
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="Navlink js-scroll-trigger" href="#ulasan">
-                    Ulasan
-                  </a>
-                </li>
+                <div className="col-md-12">
+                  <Menu />
+                </div>
               </ul>
             </div>
           </div>

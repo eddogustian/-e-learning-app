@@ -195,7 +195,33 @@ i.icon.search::before {
   letter-spacing: 0.0025em;
   color: #ffffff;
 }
-
+/* Tab */
+.ui.secondary.inverted.pointing.menu > .item.active,
+.ui.secondary.inverted.pointing.menu > .menu > .item.active {
+  border-color: #aa222f;
+  color: #686f7a;
+}
+.ui.secondary.inverted.pointing.menu {
+  border-bottom: 3px solid white;
+}
+.ui.inverted.menu .active.item {
+  box-shadow: none !important;
+  background: rgba(255, 255, 255, 0.2);
+  color: #aa222f !important;
+}
+.ui.inverted.black.segment,
+.ui.inverted.segment {
+  background-color: white !important;
+  color: #686f7a !important;
+}
+.ui.secondary.inverted.pointing.menu > .item {
+  color: #686f7a;
+}
+.ui.secondary.inverted.pointing.menu > .item:hover,
+.ui.secondary.inverted.pointing.menu > .menu > .item:hover {
+  color: #686f7a;
+}
+/* Tab end */
 #tentang h4 {
   font-style: normal;
   font-weight: bold;
