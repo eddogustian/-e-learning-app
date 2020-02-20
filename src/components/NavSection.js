@@ -16,7 +16,6 @@ import video from "./../assets/images/checkout/video.png";
 const Navigation = () => {
   return (
     <StickyHeader
-      // This is the sticky part of the header.
       header={
         <nav className="navbar navbar-expand-lg navbar-light" id="header">
           <a className="navbar-brand" href="/#">
@@ -42,12 +41,10 @@ const Navigation = () => {
               <li className="nav-item m-auto titleName">Kategori</li>
               <li className="nav-item m-auto">
                 <form className="form-inline my-2 my-lg-0" id="btnCari">
-                  <input
-                    className="form-control mr-sm-2"
-                    type="search"
-                    placeholder="Cari"
-                    aria-label="Search"
-                  ></input>
+                  <div className="ui icon input">
+                    <input type="text" size="big" placeholder="Search..." />
+                    <i aria-hidden="true" className="search icon"></i>
+                  </div>
                 </form>
               </li>
             </ul>

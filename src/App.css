@@ -7,6 +7,10 @@ body {
   box-shadow: 0px 0px 1px rgba(20, 23, 28, 0.1);
   border-radius: 0px;
 }
+i.icon.search::before {
+  content: "\f002";
+  color: #ff4e4e;
+}
 
 #header #navbarSupportedContent ul .titleName {
   font-family: Nunito Sans;
@@ -77,7 +81,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.0025em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #headerContent ._headerContet .desc-rating {
@@ -87,7 +91,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.0025em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .vl {
@@ -441,7 +445,8 @@ body {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
 
 /* 
   ##Device = Tablets, Ipads (portrait)
@@ -665,7 +670,8 @@ section {
   color: #eee;
 }
 
-#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+#tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
   color: #aa222f !important;
   background-color: transparent;
   border-color: transparent transparent #eeeeee;
@@ -692,9 +698,11 @@ section {
   background: #aa222f;
 }
 
-.foot-link-download {}
+.foot-link-download {
+}
 
-.foot-link-download ul li a {}
+.foot-link-download ul li a {
+}
 
 .foot-link-download ul li {
   list-style-type: none;
