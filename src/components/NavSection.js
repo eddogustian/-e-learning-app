@@ -36,33 +36,29 @@ const Navigation = () => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="/#">
-                  <img src={ktgr} className="ktgr" alt="ktgr" width="20" />
-                  Kategori
-                </a>
+              <li className="nav-item m-auto">
+                <img src={ktgr} className="ktgr" alt="ktgr" width="20" />
               </li>
-              <form className="form-inline my-2 my-lg-0" id="btnCari">
-                <input
-                  className="form-control mr-sm-2"
-                  type="search"
-                  placeholder="Cari"
-                  aria-label="Search"
-                ></input>
-              </form>
+              <li className="nav-item m-auto titleName">Kategori</li>
+              <li className="nav-item m-auto">
+                <form className="form-inline my-2 my-lg-0" id="btnCari">
+                  <input
+                    className="form-control mr-sm-2"
+                    type="search"
+                    placeholder="Cari"
+                    aria-label="Search"
+                  ></input>
+                </form>
+              </li>
             </ul>
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="/#">
-                  Sebagai Instruktur
-                </a>
-              </li>
-              <li className="nav-item active">
+              <li className="nav-item m-auto titleName">Sebagai Instruktur</li>
+              <li className="nav-item">
                 <a className="nav-link" href="/#">
                   <div className="vl"></div>
                 </a>
               </li>
-              <li className="nav-item active">
+              <li className="nav-item m-auto">
                 <a className="nav-link" href="/#">
                   <img src={cart} className="cart" alt="cart" width="20" />
                 </a>
