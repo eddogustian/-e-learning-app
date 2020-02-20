@@ -25,8 +25,8 @@ const PembuatKursus = () => {
                     <h5 className="card-title">xxxxxxxxxxx</h5>
                     <p className="card-text">Instruktur</p>
                     <ul className="list-group list-group-flush">
-                      <li className="list-group-item border-0 d-flex flex-row">
-                        <div className="p-2">
+                      <li className="list-group-item border-0 d-flex flex-row p-0">
+                        <div className="infoIcon">
                           <img
                             src={message}
                             className="message"
@@ -34,11 +34,11 @@ const PembuatKursus = () => {
                             width="20"
                           />
                         </div>
-                        <div className="p-2">11</div>
-                        <div className="p-2">Ulasan</div>
+                        <div className="infoIcon">11</div>
+                        <div className="infoIcon">Ulasan</div>
                       </li>
-                      <li className="list-group-item border-0  d-flex flex-row">
-                        <div className="p-2">
+                      <li className="list-group-item border-0  d-flex flex-row p-0">
+                        <div className="infoIcon">
                           <img
                             src={user}
                             className="user"
@@ -46,11 +46,11 @@ const PembuatKursus = () => {
                             width="20"
                           />
                         </div>
-                        <div className="p-2">11</div>
-                        <div className="p-2">Peserta Kursus</div>
+                        <div className="infoIcon">11</div>
+                        <div className="infoIcon">Peserta Kursus</div>
                       </li>
-                      <li className="list-group-item border-0  d-flex flex-row">
-                        <div className="p-2">
+                      <li className="list-group-item border-0  d-flex flex-row p-0">
+                        <div className="infoIcon">
                           <img
                             src={layer}
                             className="layer"
@@ -58,8 +58,8 @@ const PembuatKursus = () => {
                             width="20"
                           />
                         </div>
-                        <div className="p-2">10</div>
-                        <div className="p-2">Kursus</div>
+                        <div className="infoIcon">10</div>
+                        <div className="infoIcon">Kursus</div>
                       </li>
                     </ul>
                   </div>

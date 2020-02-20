@@ -340,13 +340,14 @@ body {
   padding: 0;
 }
 
-#pembuatKursus .card .list-group-flush .flex-row .p-2 {
+#pembuatKursus .card .list-group-flush .flex-row .infoIcon {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 27px;
   /* or 193% */
   color: #494e56;
+  margin: 0 7px;
 }
 
 .checkedProgress {
