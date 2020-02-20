@@ -720,7 +720,7 @@ section {
   float: left;
   color: white;
   padding: 3px 6px;
-  height: 30px;
+  height: auto;
   width: 30px;
   margin-right: 5px;
 }
