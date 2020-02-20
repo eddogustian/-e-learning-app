@@ -70,6 +70,26 @@ body {
   margin-bottom: -4px;
 }
 
+#headerContent ._headerContet .title-rating {
+  margin-left: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.0025em;
+  color: #FFFFFF;
+}
+
+#headerContent ._headerContet .desc-rating {
+  margin-left: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.0025em;
+  color: #FFFFFF;
+}
+
 .vl {
   border-left: 1px solid #dedfe0;
   height: 40px;
@@ -518,11 +538,6 @@ body {
 
 section {
   padding: 50px 0;
-}
-
-.title-rating {
-  margin-left: 2rem;
-  color: #ffffff;
 }
 
 .desc-rating h2 {

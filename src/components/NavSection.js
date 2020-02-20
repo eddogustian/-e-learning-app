@@ -101,7 +101,7 @@ const Navigation = () => {
                   Scorecard (BSC)
                 </h2>
               </div>
-              <div className="_headerContet">
+              <div className="_headerContet mt-4">
                 <span className="fa fa-star checked"></span>
                 <span className="fa fa-star checked"></span>
                 <span className="fa fa-star checked"></span>
