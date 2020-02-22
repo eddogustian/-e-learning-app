@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="src/assets/css/App.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="src/assets/images/ylreal.png" class="ylreal" alt="ylreal" width="100" />
@@ -254,7 +254,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 menuTab" id="menuTab">
               <div class="topnav">
                 <a class="link active" href="#Tentang"> <img src="src/assets/images/tab/img1.png" class="tentang" alt="tentang" width="17" /><span>Tentang</span></a>
                 <a class="link" href="#Konten"><img src="src/assets/images/tab/img2.png" class="konten iconred" alt="konten" width="17" /> <span>Konten</span> </a>
@@ -895,5 +895,28 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <!--- mainjs -->
   <script src="src/assets/js/main.js"></script>
+  <script>
+    // $(document).on("scroll", function() {
+    //   if ($(document).scrollTop() > 100) {
+    //     $(".menuTab").addClass("tab-shrink");
+    //   } else {
+    //     $(".menuTab").removeClass("tab-shrink");
+    //   }
+    // });
+  </script>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("menuTab");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
 </body>
 </html>

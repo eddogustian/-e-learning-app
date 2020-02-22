@@ -403,6 +403,25 @@ i.icon.search::before {
   letter-spacing: 0.0025em;
   color: #505763;
 }
+.shrink {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #212529;
+}
+.tab-shrink {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* .sticky + .content {
+  padding-top: 102px;
+} */
 #persyaratan .list-syarat li {
   list-style-type: none;
 }
