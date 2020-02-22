@@ -209,6 +209,11 @@ i.icon.search::before {
   letter-spacing: 0.0025em;
   color: #ffffff;
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #headerCta #cardMain .list-group .action .btnCart {
+    font-size: 15px;
+  }
+}
 
 #headerCta #cardMain .list-group .action .btnBuy {
   background: #f2f3f5;
@@ -257,6 +262,26 @@ i.icon.search::before {
   align-items: center;
   letter-spacing: 0.0025em;
   color: #ffffff;
+}
+#cardMain .mainplay {
+  position: relative;
+}
+#cardMain .mainplay .play {
+  position: absolute;
+  margin: 0;
+  transform: translate(0, 82%);
+  left: 40%;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #cardMain .mainplay .play {
+    transform: translate(0, 25%);
+  }
+}
+#Menu .topnav a span {
+  padding: 0 7px;
+}
+.topnav .link {
+  padding: 0 27px;
 }
 /* Tab */
 .ui.secondary.inverted.pointing.menu > .item.active,
@@ -377,6 +402,9 @@ i.icon.search::before {
   display: flex;
   letter-spacing: 0.0025em;
   color: #505763;
+}
+#persyaratan .list-syarat li {
+  list-style-type: none;
 }
 
 #persyaratan h5 {
