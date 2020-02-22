@@ -10,6 +10,18 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <!-- font -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap"
+    rel="stylesheet"
+    />
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="src/assets/css/App.css">
   </head>
   <body>
@@ -39,6 +51,151 @@
         </div> <!--- container end --->
     </nav>
     <div class="main" id="main">
+        <section id="headerCta" class="header">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8" id="headerContent">
+                    <div class="title-content">
+                      <h2>
+                        Rumah Lilin : Manajemen Kinerja Individu Berbasis Balanced
+                        Scorecard (BSC)
+                      </h2>
+                    </div>
+                    <div class="_headerContet mt-4">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="title-rating">
+                        5 (11 Ratings), 11 Peserta Terdaftar
+                      </span>
+                      <span class="desc-rating">
+                        <h2>
+                          Dibuat oleh Suwardi Luis, terakhir diperbaharui 6/2019
+                        </h2>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" id="cardMain">
+                      <img class="card-img-top" src="src/assets/images/header/Rectangle 157.png" alt="foto" />
+                      <div class="card-body">
+                        <h5 class="card-title">Jenis Kursus :</h5>
+                        <div class="card-text">
+                          <p class="float-right">
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="exampleRadios"
+                                id="exampleRadios1"
+                                value="option1"
+                                checked
+                              />
+                              <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                              >
+                                Kursus Komplit
+                              </label>
+                            </div>
+                          </p>
+                          <p class="float-left">
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="exampleRadios"
+                                id="exampleRadios2"
+                                value="option2"
+                              />
+                              <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                              >
+                                Kursus Pendek
+                              </label>
+                            </div>
+                          </p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item border-0 info">
+                          <p class="desc">Detail harga kursus pendek</p>
+                          <p class="price">Rp 20.000</p>
+                          <p>
+                            <img
+                              src="src/assets/images/header/clock.png"
+                              class="clock"
+                              alt="clock"
+                              width="20"
+                            />
+                            <span class="time">
+                              <b>8 hari</b> dengan harga ini
+                            </span>
+                          </p>
+                        </li>
+                        <li class="list-group-item border-0 action">
+                          <button type="button" class="btnCart">
+                            Tambah ke Keranjang
+                          </button>
+                        </li>
+                        <li class="list-group-item border-0 action">
+                          <button type="button" class="btnBuy">
+                            Beli Sekarang
+                          </button>
+                        </li>
+                      </ul>
+                      <div class="card-body listKursus">
+                        <h5 class="card-title">Kursus ini terdiri dari :</h5>
+                        <div class="card-text listKursusText">
+                          <p>
+                            <img
+                              src="src/assets/images/checkout/video.png"
+                              class="video"
+                              alt="video"
+                              width="17"
+                            />
+                            <span class="listKursusDesc">
+                              30 Menit durasi video
+                            </span>
+                          </p>
+                          <p>
+                            <img src="src/assets/images/checkout/file-text.png" class="file" alt="file" width="17" />
+                            <span class="listKursusDesc">5 Materi Bacaan</span>
+                          </p>
+                          <p>
+                            <img
+                              src="src/assets/images/checkout/unlock.png"
+                              class="unlock"
+                              alt="unlock"
+                              width="17"
+                            />
+                            <span class="listKursusDesc">Akses seumur hidup</span>
+                          </p>
+                          <p>
+                            <img
+                              src="src/assets/images/checkout/monitor.png"
+                              class="monitor"
+                              alt="monitor"
+                              width="17"
+                            />
+                            <span class="listKursusDesc">
+                              Akses diwebsite dan mobile
+                            </span>
+                          </p>
+                          <p>
+                            <img src="src/assets/images/checkout/edit.png" class="edit" alt="edit" width="17" />
+                            <span class="listKursusDesc">Tugas</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
         <section id="Tentang" class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -143,9 +300,7 @@
                     </ul>
                   </div>
                 </div>
-            </div>
-        </section>
-        <section id="Ulasan" class="container">
+            </div> <!--- row end-->
             <div class="row">
                 <div class="col-md-8">
                   <h4>Pembuat Kursus </h4>
@@ -217,6 +372,437 @@
                             Ipsum.
                           </p>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div> <!-- row end-->
+        </section>
+        <section id="Ulasan" class="container">
+            <div class="row">
+                <div class="col-md-8">
+                  <h4>Ulasan Peserta</h4>
+                  <img src="src/assets/images/line.png" class="line" alt="line" width="100" />
+                  <div class="row mt-3">
+                    <div class="col-xs-12 col-md-3 text-center">
+                      <h1 class="rating-num">5</h1>
+                      <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                      <div class="rating-desc">
+                        <h5>1 Peringkat Kursus</h5>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9">
+                      <div class="row rating-desc">
+                        <div class="col-xs-8 col-md-8">
+                          <div class="checkedProgress progress-striped">
+                            <div
+                              class="progress-bar progress-bar-success"
+                              role="progressbar"
+                              aria-valuenow="20"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            >
+                              <span class="sr-only">80%</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xs-3 col-md-4 text-right">
+                          <div class="d-flex flex-row">
+                            <div class="p-2">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                            </div>
+                            <div class="p-2">
+                              <span class="persen"> 100%</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xs-8 col-md-8">
+                          <div class="progress">
+                            <div
+                              class="progress-bar progress-bar-success"
+                              role="progressbar"
+                              aria-valuenow="20"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            >
+                              <span class="sr-only">60%</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xs-3 col-md-4 text-right">
+                          <div class="d-flex flex-row">
+                            <div class="p-2">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star unchecked"></span>
+                            </div>
+                            <div class="p-2">
+                              <span class="persen">0%</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xs-8 col-md-8">
+                          <div class="progress">
+                            <div
+                              class="progress-bar progress-bar-info"
+                              role="progressbar"
+                              aria-valuenow="20"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            >
+                              <span class="sr-only">40%</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xs-3 col-md-4 text-right">
+                          <div class="d-flex flex-row">
+                            <div class="p-2">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star unchecked"></span>
+                              <span class="fa fa-star unchecked"></span>
+                            </div>
+                            <div class="p-2">
+                              <span class="persen">0%</span>
+                            </div>
+                          </div>
+                        </div>
+      
+                        <div class="col-xs-8 col-md-8">
+                          <div class="progress">
+                            <div
+                              class="progress-bar progress-bar-warning"
+                              role="progressbar"
+                              aria-valuenow="20"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            >
+                              <span class="sr-only">20%</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xs-3 col-md-4 text-right">
+                          <div class="d-flex flex-row">
+                            <div class="p-2">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star unchecked"></span>
+                              <span class="fa fa-star unchecked"></span>
+                              <span class="fa fa-star unchecked"></span>
+                            </div>
+                            <div class="p-2">
+                              <span class="persen">0%</span>
+                            </div>
+                          </div>
+                        </div>
+      
+                        <div class="col-xs-8 col-md-8">
+                          <div class="progress">
+                            <div
+                              class="progress-bar progress-bar-danger"
+                              role="progressbar"
+                              aria-valuenow="80"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            >
+                              <span class="sr-only">15%</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xs-3 col-md-4 text-right">
+                          <div class="d-flex flex-row">
+                            <div class="p-2">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star unchecked"></span>
+                              <span class="fa fa-star unchecked"></span>
+                              <span class="fa fa-star unchecked"></span>
+                              <span class="fa fa-star unchecked"></span>
+                            </div>
+                            <div class="p-2">
+                              <span class="persen"> 0%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div> <!-- end row-->
+            <div class="row mt-5">
+                <div class="col-md-8">
+                  <div class="row" id="descUlasan">
+                    <div class="col-xs-12 col-md-3 text-center">
+                      <div class="d-flex flex-row row">
+                        <div class="p-2 col-xs-12 col-md-4 col-xl-6">
+                          <img
+                            src="src/assets/images/ulasan/foto1.png"
+                            class="fotosatu"
+                            alt="fotosatu"
+                            width="50"
+                          />
+                        </div>
+                        <div class="p-2 col-xs-12 col-md-8 col-xl-6 titleName">
+                          <h5>Cynda</h5>
+                          <p>1 jam lalu</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 descContent">
+                      <div class="d-flex flex-column">
+                        <div class="p-2 star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="p-2 desc">
+                          Lorem ipsum dolor sit amet, scaevola lucilius nam ea. Sonet
+                          integre nonumes ea vis, nostrum tractatos sit ex, nec ea
+                          appetere philosophia. Pro dicta adipisci ei. Est eu ullum
+                          vivendo. Nulla eripuit mea ad. Ad cum iracundia posidonium.
+                        </div>
+                      </div>
+                    </div>
+                  </div>  <!-- row end -->
+                  <div class="row" id="descUlasan">
+                    <div class="col-xs-12 col-md-3 text-center">
+                      <div class="d-flex flex-row row">
+                        <div class="p-2 col-xs-12 col-md-4 col-xl-6">
+                          <img
+                            src="src/assets/images/ulasan/foto2.png"
+                            class="fotodua"
+                            alt="fotodua"
+                            width="50"
+                          />
+                        </div>
+                        <div class="p-2 col-xs-12 col-md-8 col-xl-6 titleName">
+                          <h5>Cynda</h5>
+                          <p>1 jam lalu</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 descContent">
+                      <div class="d-flex flex-column">
+                        <div class="p-2 star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="p-2 desc">
+                          Lorem ipsum dolor sit amet, scaevola lucilius nam ea. Sonet
+                          integre nonumes ea vis, nostrum tractatos sit ex, nec ea
+                          appetere philosophia. Pro dicta adipisci ei. Est eu ullum
+                          vivendo. Nulla eripuit mea ad. Ad cum iracundia posidonium.
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!-- row end -->
+                  <div class="row" id="descUlasan">
+                    <div class="col-xs-12 col-md-3 text-center">
+                      <div class="d-flex flex-row row">
+                        <div class="p-2 col-xs-12 col-md-4 col-xl-6">
+                          <img
+                            src="src/assets/images/ulasan/foto3.png"
+                            class="fototiga"
+                            alt="fototiga"
+                            width="50"
+                          />
+                        </div>
+                        <div class="p-2 col-xs-12 col-md-8 col-xl-6 titleName">
+                          <h5>Cynda</h5>
+                          <p>1 jam lalu</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 descContent">
+                      <div class="d-flex flex-column">
+                        <div class="p-2 star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="p-2 desc">
+                          Lorem ipsum dolor sit amet, scaevola lucilius nam ea. Sonet
+                          integre nonumes ea vis, nostrum tractatos sit ex, nec ea
+                          appetere philosophia. Pro dicta adipisci ei. Est eu ullum
+                          vivendo. Nulla eripuit mea ad. Ad cum iracundia posidonium.
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!-- row end -->
+                  <div class="row" id="descUlasan">
+                    <div class="col-xs-12 col-md-3 text-center">
+                      <div class="d-flex flex-row row">
+                        <div class="p-2 col-xs-12 col-md-4 col-xl-6">
+                          <img
+                            src="src/assets/images/ulasan/foto4.png"
+                            class="fotoempat"
+                            alt="fotoempat"
+                            width="50"
+                          />
+                        </div>
+                        <div class="p-2 col-xs-12 col-md-8 col-xl-6 titleName">
+                          <h5>Cynda</h5>
+                          <p>1 jam lalu</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 descContent">
+                      <div class="d-flex flex-column">
+                        <div class="p-2 star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="p-2 desc">
+                          Lorem ipsum dolor sit amet, scaevola lucilius nam ea. Sonet
+                          integre nonumes ea vis, nostrum tractatos sit ex, nec ea
+                          appetere philosophia. Pro dicta adipisci ei. Est eu ullum
+                          vivendo. Nulla eripuit mea ad. Ad cum iracundia posidonium.
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!-- row end -->
+                  <div class="row" id="descUlasan">
+                    <div class="col-xs-12 col-md-3 text-center">
+                      <div class="d-flex flex-row row">
+                        <div class="p-2 col-xs-12 col-md-4 col-xl-6">
+                          <img
+                            src="src/assets/images/ulasan/foto5.png"
+                            class="fotolima"
+                            alt="fotolima"
+                            width="50"
+                          />
+                        </div>
+                        <div class="p-2 col-xs-12 col-md-8 col-xl-6 titleName">
+                          <h5>Cynda</h5>
+                          <p>1 jam lalu</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 descContent">
+                      <div class="d-flex flex-column">
+                        <div class="p-2 star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="p-2 desc">
+                          Lorem ipsum dolor sit amet, scaevola lucilius nam ea. Sonet
+                          integre nonumes ea vis, nostrum tractatos sit ex, nec ea
+                          appetere philosophia. Pro dicta adipisci ei. Est eu ullum
+                          vivendo. Nulla eripuit mea ad. Ad cum iracundia posidonium.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div> <!-- row end -->
+        </section>
+        <section id="footer" class="py-4 bg-footer-cermati text-white-50">
+            <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 col-md-12">
+                    <div class="">
+                      <div class="foot-link-download">
+                        <ul>
+                          <li class="playstore">
+                            <a href="/#">
+                              <img
+                                src="src/assets/images/playstore.png"
+                                class="playstore"
+                                alt="playstore"
+                                width="11.5%"
+                              />
+                            </a>
+                          </li>
+                          <li class="appstore">
+                            <a href="/#">
+                              <img
+                                src="src/assets/images/appstore.png"
+                                class="appstore"
+                                alt="appstore"
+                                width="10%"
+                              />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="foot-link-sosmed">
+                        <ul>
+                          <li class="fb">
+                            <a href="/#">
+                              <img
+                                src="src/assets/images/sosmed/fb.png"
+                                class="facebook"
+                                alt="icon-fb"
+                                width="70%"
+                              />
+                            </a>
+                          </li>
+                          <li class="ig">
+                            <a href="/#">
+                              <img
+                                src="src/assets/images/sosmed/ig.png"
+                                class="instagram"
+                                alt="icon-ig"
+                                width="100%"
+                              />
+                            </a>
+                          </li>
+                          <li class="yt">
+                            <a href="/#">
+                              <img
+                                src="src/assets/images/sosmed/yt.png"
+                                class="youtube"
+                                alt="icon-yt"
+                                width="100%"
+                              />
+                            </a>
+                          </li>
+                          <li class="tw">
+                            <a href="/#">
+                              <img
+                                src="src/assets/images/sosmed/tw.png"
+                                class="twitter"
+                                alt="icon-tw"
+                                width="100%"
+                              />
+                            </a>
+                          </li>
+                          <li class="lin">
+                            <a href="/#">
+                              <img
+                                src="src/assets/images/sosmed/ln.png"
+                                class="linkedln"
+                                alt="icon-ln"
+                                width="100%"
+                              />
+                            </a>
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </div>
