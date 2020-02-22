@@ -27,27 +27,76 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">icon</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><img src="src/assets/images/header/grid.png" class="img-fluid" alt="icon kategori" width="22">Kategori</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="input-group col-md-12">
-                            <input class="form-control py-2 border-right-0 border" type="search" value="search" id="example-search-input">
-                            <span class="input-group-append">
-                              <button class="btn btn-outline-secondary border-left-0 border" type="button">
-                                    <i class="fa fa-search"></i>
-                              </button>
-                            </span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+          <a class="navbar-brand" href="#">
+            <img src="src/assets/images/ylreal.png" class="ylreal" alt="ylreal" width="100" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item m-auto">
+                <img src="src/assets/images/header/grid.png" class="ktgr" alt="ktgr" width="20" />
+              </li>
+              <li class="nav-item m-auto titleName">Kategori</li>
+              <li class="nav-item m-auto">
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input type="text" class="  search-query form-control" placeholder="Search" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-danger" type="button">
+                                <span class="fa fa-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item m-auto titleName">Sebagai Instruktur</li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="vl"></div>
+                </a>
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link" href="#">
+                  <img src="src/assets/images/header/mdi-light_cart.png" class="cart" alt="cart" width="20" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <button
+                    class="btn my-2 my-sm-0"
+                    id="btnMasuk"
+                    type="submit"
+                  >
+                    Masuk
+                  </button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <button
+                    class="btn my-2 my-sm-0"
+                    id="btnDaftar"
+                    type="submit"
+                  >
+                    Daftar
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div> <!--- container end --->
     </nav>
     <div class="main" id="main">
@@ -83,41 +132,16 @@
                       <div class="card-body">
                         <h5 class="card-title">Jenis Kursus :</h5>
                         <div class="card-text">
-                          <p class="float-right">
-                            <div class="form-check">
-                              <input
-                                class="form-check-input"
-                                type="radio"
-                                name="exampleRadios"
-                                id="exampleRadios1"
-                                value="option1"
-                                checked
-                              />
-                              <label
-                                class="form-check-label"
-                                for="exampleRadios1"
-                              >
-                                Kursus Komplit
-                              </label>
+                          <form>
+                            <div class="custom-control custom-radio custom-control-inline float-right">
+                              <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+                              <label class="custom-control-label" for="customRadio">Kursus Komplit</label>
                             </div>
-                          </p>
-                          <p class="float-left">
-                            <div class="form-check">
-                              <input
-                                class="form-check-input"
-                                type="radio"
-                                name="exampleRadios"
-                                id="exampleRadios2"
-                                value="option2"
-                              />
-                              <label
-                                class="form-check-label"
-                                for="exampleRadios2"
-                              >
-                                Kursus Pendek
-                              </label>
+                            <div class="custom-control custom-radio custom-control-inline float-left">
+                              <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+                              <label class="custom-control-label" for="customRadio2">Kursus Pendek</label>
                             </div>
-                          </p>
+                          </form>
                         </div>
                       </div>
                       <ul class="list-group list-group-flush">
@@ -230,9 +254,14 @@
                           </blockquote>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                  <div id="accordion" class="accordion">
+                    <div class="card mb-0">
                       <div
                         class="card-header card-headers collapsed"
                         data-toggle="collapse"
+                        aria-expanded="true"
                         href="#collapseOne"
                       >
                         <span class="card-title">
@@ -248,9 +277,14 @@
                         <p>2. Tujuan dari Materi 1</p>
                         <p>3. Tujuan dari Materi 2</p>
                       </div>
+                    </div>
+                  </div>
+                  <div id="accordion" class="accordion">
+                    <div class="card mb-0">
                       <div
                         class="card-header card-headers collapsed"
                         data-toggle="collapse"
+                        aria-expanded="true"
                         data-parent="#accordion"
                         href="#collapseTwo"
                       >
@@ -729,7 +763,7 @@
                       <div class="foot-link-download">
                         <ul>
                           <li class="playstore">
-                            <a href="/#">
+                            <a href="#">
                               <img
                                 src="src/assets/images/playstore.png"
                                 class="playstore"
@@ -739,7 +773,7 @@
                             </a>
                           </li>
                           <li class="appstore">
-                            <a href="/#">
+                            <a href="#">
                               <img
                                 src="src/assets/images/appstore.png"
                                 class="appstore"
@@ -753,7 +787,7 @@
                       <div class="foot-link-sosmed">
                         <ul>
                           <li class="fb">
-                            <a href="/#">
+                            <a href="#">
                               <img
                                 src="src/assets/images/sosmed/fb.png"
                                 class="facebook"
@@ -763,7 +797,7 @@
                             </a>
                           </li>
                           <li class="ig">
-                            <a href="/#">
+                            <a href="#">
                               <img
                                 src="src/assets/images/sosmed/ig.png"
                                 class="instagram"
@@ -773,7 +807,7 @@
                             </a>
                           </li>
                           <li class="yt">
-                            <a href="/#">
+                            <a href="#">
                               <img
                                 src="src/assets/images/sosmed/yt.png"
                                 class="youtube"
@@ -783,7 +817,7 @@
                             </a>
                           </li>
                           <li class="tw">
-                            <a href="/#">
+                            <a href="#">
                               <img
                                 src="src/assets/images/sosmed/tw.png"
                                 class="twitter"
@@ -793,7 +827,7 @@
                             </a>
                           </li>
                           <li class="lin">
-                            <a href="/#">
+                            <a href="#">
                               <img
                                 src="src/assets/images/sosmed/ln.png"
                                 class="linkedln"
