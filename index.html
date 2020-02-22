@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-learning App</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/assets/css/App.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">icon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><img src="src/assets/images/header/grid.png" class="img-fluid" alt="icon kategori" width="22">Kategori</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="input-group col-md-12">
+                            <input class="form-control py-2 border-right-0 border" type="search" value="search" id="example-search-input">
+                            <span class="input-group-append">
+                              <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                                    <i class="fa fa-search"></i>
+                              </button>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> <!--- container end --->
+    </nav>
+    <div class="main" id="main">
+        <section id="Tentang" class="container">
+            <div class="row">
+                <div class="col-md-8">
+                  <h4>Tentang Kursus</h4>
+                  <img src="src/assets/images/line.png" class="line" alt="line" width="100" />
+                  <p>
+                    Program ini menjelaskan Manajemen Kinerja Individu berbasis
+                    Balanced Scorecard lewat sebuah studi kasus Rumah Lilin, sehingga
+                    mudah untuk dipahami dan diadaptasi dalam organisasi Anda.
+                  </p>
+                </div>
+            </div>
+        </section>
+        <section id="Konten" class="container">
+            <div class="row">
+                <div class="col-md-8">
+                  <h4>Konten Kursus</h4>
+                  <img src="src/assets/images/line.png" class="line" alt="line" width="100" />
+                  <div id="accordion" class="accordion">
+                    <div class="card mb-0 mt-3">
+                      <div class="card">
+                        <div class="card-header">
+                          <h5>
+                            Rumah Lilin : Manajemen Kinerja Individu Berbasis Balanced
+                            Scorecard (BSC)
+                          </h5>
+                          <p>5 Pelajaran dengan durasi 30 Menit</p>
+                        </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                            <p>1. Pre Test</p>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <div
+                        class="card-header card-headers collapsed"
+                        data-toggle="collapse"
+                        href="#collapseOne"
+                      >
+                        <span class="card-title">
+                          <h5>Penejelasan dengan PDF</h5>
+                          <p>2 Materi dengan PDF</p>
+                        </span>
+                      </div>
+                      <div
+                        id="collapseOne"
+                        class="card-body collapse"
+                        data-parent="#accordion"
+                      >
+                        <p>2. Tujuan dari Materi 1</p>
+                        <p>3. Tujuan dari Materi 2</p>
+                      </div>
+                      <div
+                        class="card-header card-headers collapsed"
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                        href="#collapseTwo"
+                      >
+                        <span class="card-title">
+                          <h5>Penejelasan dengan Video</h5>
+                          <p>2 Materi dengan Video</p>
+                        </span>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="card-body collapse"
+                        data-parent="#accordion"
+                      >
+                        <p>4. Tujuan dari Materi 1</p>
+                        <p>5. Tujuan dari Materi 2</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section id="Persyaratan" class="container">
+            <div class="row">
+                <div class="col-md-8">
+                  <h4>Persyaratan Kursus </h4>
+                  <img src="src/assets/images/line.png" class="line" alt="line" width="100" />
+                  <div class="mt-4">
+                    <h5>Kursus ini memiliki 3 Persyaratan, diantaranya :</h5>
+                    <ul>
+                      <li>
+                        <img src="src/assets/images/persyaratan/globe.png" class="globe" alt="globe" width="20" />
+                        <span>Menggunakan Bahasa Indonesia</span>
+                      </li>
+                      <li>
+                        <img
+                          src="src/assets/images/persyaratan/trending-up.png"
+                          class="trending"
+                          alt="trending"
+                          width="20"
+                        />
+                        <span>Level Pemula</span>
+                      </li>
+                      <li>
+                        <img src="src/assets/images/persyaratan/users.png" class="users" alt="users" width="20" />
+                        <span>Pesrta adalah semua orang</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section id="Ulasan" class="container">
+            <div class="row">
+                <div class="col-md-8">
+                  <h4>Pembuat Kursus </h4>
+                  <img src="src/assets/images/line.png" class="line" alt="line" width="100" />
+                  <div class="card mb-3 mt-3 border-0">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <div class="row mt-3">
+                          <div class="col-md-5 mx-auto text-center">
+                            <img src="src/assets/images/pembuatkursus/people.png" class="card-img" alt="people" />
+                          </div>
+                        </div>
+                        <div class="card-body text-center">
+                          <h5 class="card-title">xxxxxxxxxxx</h5>
+                          <p class="card-text">Instruktur</p>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item border-0 d-flex flex-row p-0">
+                              <div class="infoIcon">
+                                <img
+                                  src="src/assets/images/pembuatkursus/message-circle.png"
+                                  class="message"
+                                  alt="message"
+                                  width="20"
+                                />
+                              </div>
+                              <div class="infoIcon">11</div>
+                              <div class="infoIcon">Ulasan</div>
+                            </li>
+                            <li class="list-group-item border-0  d-flex flex-row p-0">
+                              <div class="infoIcon">
+                                <img
+                                  src="src/assets/images/pembuatkursus/user.png"
+                                  class="user"
+                                  alt="user"
+                                  width="20"
+                                />
+                              </div>
+                              <div class="infoIcon">11</div>
+                              <div class="infoIcon">Peserta Kursus</div>
+                            </li>
+                            <li class="list-group-item border-0  d-flex flex-row p-0">
+                              <div class="infoIcon">
+                                <img
+                                  src="src/assets/images/pembuatkursus/layers.png"
+                                  class="layer"
+                                  alt="layer"
+                                  width="20"
+                                />
+                              </div>
+                              <div class="infoIcon">10</div>
+                              <div class="infoIcon">Kursus</div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <p class="card-text">
+                            is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard
+                            dummy text ever since the 1500s, when an unknown printer
+                            took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries,
+                            but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s
+                            with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem
+                            Ipsum.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </div>
+  </body>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!--- mainjs -->
+  <script src="src/assets/js/main.js"></script>
+</body>
+</html>
