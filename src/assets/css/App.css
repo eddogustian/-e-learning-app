@@ -49,7 +49,6 @@ i.icon.search::before {
   font-size: 14px;
   line-height: 22px;
   /* or 160% */
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #494e56;
@@ -61,7 +60,6 @@ i.icon.search::before {
   font-weight: bold;
   font-size: 25px;
   line-height: 34px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #505763;
@@ -180,7 +178,6 @@ i.icon.search::before {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #505763;
@@ -191,7 +188,6 @@ i.icon.search::before {
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #494e56;
@@ -245,7 +241,6 @@ i.icon.search::before {
   font-size: 14px;
   line-height: 22px;
   /* or 160% */
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   margin: 5px 10px;
@@ -258,7 +253,6 @@ i.icon.search::before {
   font-size: 25px;
   line-height: 30px;
   /* or 120% */
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #ffffff;
@@ -315,7 +309,6 @@ i.icon.search::before {
   font-weight: bold;
   font-size: 20px;
   line-height: 22px;
-  display: flex;
   letter-spacing: 0.0025em;
   color: #505763;
 }
@@ -334,7 +327,6 @@ i.icon.search::before {
   font-weight: bold;
   font-size: 20px;
   line-height: 22px;
-  display: flex;
   letter-spacing: 0.0025em;
   color: #505763;
 }
@@ -344,7 +336,6 @@ i.icon.search::before {
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #000000;
@@ -356,7 +347,6 @@ i.icon.search::before {
   font-size: 14px;
   line-height: 22px;
   /* or 160% */
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #494e56;
@@ -367,7 +357,6 @@ i.icon.search::before {
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  display: flex;
   align-items: center;
   letter-spacing: 0;
 }
@@ -377,7 +366,6 @@ i.icon.search::before {
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #000000;
@@ -388,7 +376,6 @@ i.icon.search::before {
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #000000;
@@ -399,7 +386,6 @@ i.icon.search::before {
   font-weight: bold;
   font-size: 20px;
   line-height: 22px;
-  display: flex;
   letter-spacing: 0.0025em;
   color: #505763;
 }
@@ -432,7 +418,6 @@ i.icon.search::before {
   font-size: 16px;
   line-height: 22px;
   /* or 140% */
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #000000;
@@ -454,7 +439,6 @@ i.icon.search::before {
   font-weight: bold;
   font-size: 20px;
   line-height: 22px;
-  display: flex;
   letter-spacing: 0.0025em;
   color: #505763;
 }
@@ -493,7 +477,6 @@ i.icon.search::before {
 .checkedProgress {
   margin: 5px 0;
   display: -ms-flexbox;
-  display: flex;
   height: 1rem;
   overflow: hidden;
   font-size: 0.75rem;
@@ -504,7 +487,6 @@ i.icon.search::before {
 .progress {
   margin: 5px 0;
   display: -ms-flexbox;
-  display: flex;
   height: 1rem;
   overflow: hidden;
   font-size: 0.75rem;
@@ -517,7 +499,6 @@ i.icon.search::before {
   font-weight: bold;
   font-size: 20px;
   line-height: 22px;
-  display: flex;
   letter-spacing: 0.0025em;
   color: #505763;
 }
@@ -570,7 +551,6 @@ i.icon.search::before {
   font-size: 14px;
   line-height: 22px;
   /* or 160% */
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #494e56;
@@ -607,7 +587,6 @@ i.icon.search::before {
   font-weight: bold;
   font-size: 20px;
   line-height: 22px;
-  display: flex;
   letter-spacing: 0.0025em;
   color: #505763;
 }
@@ -623,7 +602,6 @@ i.icon.search::before {
   font-size: 12px;
   line-height: 16px;
   /* or 133% */
-  display: flex;
   align-items: center;
   color: #505763;
 }
@@ -634,7 +612,6 @@ i.icon.search::before {
   font-size: 12px;
   line-height: 16px;
   /* or 133% */
-  display: flex;
   align-items: center;
   color: #505763;
 }
@@ -645,7 +622,6 @@ i.icon.search::before {
   font-size: 11px;
   line-height: 16px;
   /* or 145% */
-  display: flex;
   align-items: center;
   color: #505763;
 }
@@ -660,7 +636,6 @@ i.icon.search::before {
   font-size: 12px;
   line-height: 16px;
   /* or 133% */
-  display: flex;
   align-items: center;
   color: #505763;
   text-decoration: line-through red;
@@ -672,7 +647,6 @@ i.icon.search::before {
   font-size: 18px;
   line-height: 16px;
   /* identical to box height, or 89% */
-  display: flex;
   align-items: center;
   color: #29303b;
   margin-top: 12px;
@@ -689,7 +663,6 @@ section {
   font-size: 16px;
   line-height: 22px;
   /* or 141% */
-  display: flex;
   align-items: center;
   letter-spacing: 0.0025em;
   color: #ffffff;
@@ -772,7 +745,6 @@ section {
 
 ._menuChild {
   display: -ms-flexbox;
-  display: flex;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
