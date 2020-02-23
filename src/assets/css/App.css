@@ -381,7 +381,7 @@ i.icon.search::before {
   color: #000000;
 }
 
-#persyaratan h4 {
+#Persyaratan h4 {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -408,11 +408,20 @@ i.icon.search::before {
 /* .sticky + .content {
   padding-top: 102px;
 } */
-#persyaratan .list-syarat li {
+#Persyaratan .list-syarat li {
   list-style-type: none;
 }
+/* #Persyaratan .desc {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.0025em;
+  color: #494e56;
+} */
 
-#persyaratan h5 {
+#Persyaratan h5 {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -423,7 +432,7 @@ i.icon.search::before {
   color: #000000;
 }
 
-#persyaratan ul li span {
+#Persyaratan ul li span {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -434,7 +443,7 @@ i.icon.search::before {
   margin-left: 1rem;
 }
 
-#pembuatKursus h4 {
+#pembuatkursus h4 {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -443,7 +452,7 @@ i.icon.search::before {
   color: #505763;
 }
 
-#pembuatKursus .card-body .card-text {
+#pembuatkursus .card-body .card-text {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -452,7 +461,7 @@ i.icon.search::before {
   color: #494e56;
 }
 
-#pembuatKursus .card-body h5 {
+#pembuatkursus .card-body h5 {
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
@@ -460,11 +469,11 @@ i.icon.search::before {
   color: #aa222f;
 }
 
-#pembuatKursus .card .list-group-flush {
+#pembuatkursus .card .list-group-flush {
   padding: 0;
 }
 
-#pembuatKursus .card .list-group-flush .flex-row .infoIcon {
+#pembuatkursus .card .list-group-flush .flex-row .infoIcon {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -494,7 +503,7 @@ i.icon.search::before {
   border-radius: 0.25rem;
 }
 
-#ulasan h4 {
+#Ulasan h4 {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -503,16 +512,15 @@ i.icon.search::before {
   color: #505763;
 }
 
-#ulasan .mt-3 .rating-num {
+#Ulasan .mt-3 .rating-num {
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 70px;
-  line-height: 21px;
   color: #686f7a;
 }
 
-#ulasan .mt-3 .rating-desc h5 {
+#Ulasan .mt-3 .rating-desc h5 {
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
@@ -520,6 +528,13 @@ i.icon.search::before {
   line-height: 21px;
   /* identical to box height, or 143% */
   color: #686f7a;
+}
+#Ulasan .rating-desc .persen {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 #descUlasan .titleName h5 {
