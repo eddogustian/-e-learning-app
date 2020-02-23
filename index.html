@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="src/assets/css/App.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light NavFix" id="NavFix">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="src/assets/images/ylreal.png" class="ylreal" alt="ylreal" width="100" />
@@ -105,7 +105,7 @@
             <div class="container">
                 <div class="row">
                   <div class="col-md-8" id="headerContent">
-                    <div class="title-content">
+                    <div class="title-content headerfix">
                       <h2>
                         Rumah Lilin : Manajemen Kinerja Individu Berbasis Balanced
                         Scorecard (BSC)
@@ -133,94 +133,94 @@
                         <img class="card-img-top" src="src/assets/images/header/Rectangle 157.png" alt="foto" />
                         <img class="play" src="src/assets/images/header/play-circle.png" width="70" alt="play" />
                       </div>
-                      <div>
-                     <div class="card-body">
-                        <h5 class="card-title">Jenis Kursus :</h5>
-                        <div class="card-text">
-                          <form class="clearfix">
-                            <div class="custom-control custom-radio custom-control-inline float-right">
-                              <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
-                              <label class="custom-control-label" for="customRadio">Kursus Komplit</label>
+                      <div class="playcontent" id="playcontent">
+                        <div class="card-body">
+                            <h5 class="card-title">Jenis Kursus :</h5>
+                            <div class="card-text">
+                              <form class="clearfix">
+                                <div class="custom-control custom-radio custom-control-inline float-right">
+                                  <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+                                  <label class="custom-control-label" for="customRadio">Kursus Komplit</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline float-left">
+                                  <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+                                  <label class="custom-control-label" for="customRadio2">Kursus Pendek</label>
+                                </div>
+                              </form>
                             </div>
-                            <div class="custom-control custom-radio custom-control-inline float-left">
-                              <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
-                              <label class="custom-control-label" for="customRadio2">Kursus Pendek</label>
-                            </div>
-                          </form>
                         </div>
-                     </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item border-0 info">
-                          <p class="desc">Detail harga kursus pendek</p>
-                          <p class="price">Rp 20.000</p>
-                          <p>
-                            <img
-                              src="src/assets/images/header/clock.png"
-                              class="clock"
-                              alt="clock"
-                              width="20"
-                            />
-                            <span class="time">
-                              <b>8 hari</b> dengan harga ini
-                            </span>
-                          </p>
-                        </li>
-                        <li class="list-group-item border-0 action">
-                          <button type="button" class="btnCart">
-                            Tambah ke Keranjang
-                          </button>
-                        </li>
-                        <li class="list-group-item border-0 action">
-                          <button type="button" class="btnBuy">
-                            Beli Sekarang
-                          </button>
-                        </li>
-                      </ul>
-                      <div class="card-body listKursus">
-                        <h5 class="card-title">Kursus ini terdiri dari :</h5>
-                        <div class="card-text listKursusText">
-                          <p>
-                            <img
-                              src="src/assets/images/checkout/video.png"
-                              class="video"
-                              alt="video"
-                              width="17"
-                            />
-                            <span class="listKursusDesc">
-                              30 Menit durasi video
-                            </span>
-                          </p>
-                          <p>
-                            <img src="src/assets/images/checkout/file-text.png" class="file" alt="file" width="17" />
-                            <span class="listKursusDesc">5 Materi Bacaan</span>
-                          </p>
-                          <p>
-                            <img
-                              src="src/assets/images/checkout/unlock.png"
-                              class="unlock"
-                              alt="unlock"
-                              width="17"
-                            />
-                            <span class="listKursusDesc">Akses seumur hidup</span>
-                          </p>
-                          <p>
-                            <img
-                              src="src/assets/images/checkout/monitor.png"
-                              class="monitor"
-                              alt="monitor"
-                              width="17"
-                            />
-                            <span class="listKursusDesc">
-                              Akses diwebsite dan mobile
-                            </span>
-                          </p>
-                          <p>
-                            <img src="src/assets/images/checkout/edit.png" class="edit" alt="edit" width="17" />
-                            <span class="listKursusDesc">Tugas</span>
-                          </p>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item border-0 info">
+                            <p class="desc">Detail harga kursus pendek</p>
+                            <p class="price">Rp 20.000</p>
+                            <p>
+                              <img
+                                src="src/assets/images/header/clock.png"
+                                class="clock"
+                                alt="clock"
+                                width="20"
+                              />
+                              <span class="time">
+                                <b>8 hari</b> dengan harga ini
+                              </span>
+                            </p>
+                          </li>
+                          <li class="list-group-item border-0 action">
+                            <button type="button" class="btnCart">
+                              Tambah ke Keranjang
+                            </button>
+                          </li>
+                          <li class="list-group-item border-0 action">
+                            <button type="button" class="btnBuy">
+                              Beli Sekarang
+                            </button>
+                          </li>
+                        </ul>
+                        <div class="card-body listKursus">
+                          <h5 class="card-title">Kursus ini terdiri dari :</h5>
+                          <div class="card-text listKursusText">
+                            <p>
+                              <img
+                                src="src/assets/images/checkout/video.png"
+                                class="video"
+                                alt="video"
+                                width="17"
+                              />
+                              <span class="listKursusDesc">
+                                30 Menit durasi video
+                              </span>
+                            </p>
+                            <p>
+                              <img src="src/assets/images/checkout/file-text.png" class="file" alt="file" width="17" />
+                              <span class="listKursusDesc">5 Materi Bacaan</span>
+                            </p>
+                            <p>
+                              <img
+                                src="src/assets/images/checkout/unlock.png"
+                                class="unlock"
+                                alt="unlock"
+                                width="17"
+                              />
+                              <span class="listKursusDesc">Akses seumur hidup</span>
+                            </p>
+                            <p>
+                              <img
+                                src="src/assets/images/checkout/monitor.png"
+                                class="monitor"
+                                alt="monitor"
+                                width="17"
+                              />
+                              <span class="listKursusDesc">
+                                Akses diwebsite dan mobile
+                              </span>
+                            </p>
+                            <p>
+                              <img src="src/assets/images/checkout/edit.png" class="edit" alt="edit" width="17" />
+                              <span class="listKursusDesc">Tugas</span>
+                            </p>
+                          </div>
                         </div>
                       </div>
-                    </div>
                     </div>
                   </div>
                 </div>
@@ -920,27 +920,60 @@
   <!--- mainjs -->
   <script src="src/assets/js/main.js"></script>
   <script>
-    // $(document).on("scroll", function() {
-    //   if ($(document).scrollTop() > 100) {
-    //     $(".menuTab").addClass("tab-shrink");
-    //   } else {
-    //     $(".menuTab").removeClass("tab-shrink");
-    //   }
-    // });
-  </script>
-  <script>
-    window.onscroll = function() {myFunction()};
-    
-    var header = document.getElementById("menuTab");
-    var sticky = header.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
+    $(document).on("scroll", function() {
+      if ($(document).scrollTop() > 10) {
+        $(".NavFix").addClass("sticky");
       } else {
-        header.classList.remove("sticky");
+        $(".NavFix").removeClass("sticky");
       }
-    }
-    </script>
+    });
+    $(document).on("scroll", function() {
+      if ($(document).scrollTop() > 300) {
+        $(".menuTab").addClass("stickyMenu");
+      } else {
+        $(".menuTab").removeClass("stickyMenu");
+      }
+    });
+    $(document).on("scroll", function() {
+      if ($(document).scrollTop() > 270) {
+        $(".playcontent").addClass("stickyCard");
+        $(".mainplay").addClass("d-none");
+      } else {
+        $(".playcontent").removeClass("stickyCard");
+        $(".mainplay").removeClass("d-none");
+      }
+    });
+    $(document).on("scroll", function() {
+      if ($(document).scrollTop() > 270) {
+        $(".headerfix").addClass("stickyHeader");
+      } else {
+        $(".headerfix").removeClass("stickyHeader");
+      }
+    });
+    $(document).on("scroll", function() {
+      if ($(document).scrollTop() > 270) {
+        $(".header").addClass("HeaderFixs");
+        $("._headerContet").addClass("_headerContetNone");
+      } else {
+        $(".header").removeClass("HeaderFixs");
+        $("._headerContet").removeClass("_headerContetNone");
+      }
+    });
+
+    // window.onscroll = function() {
+    //   fix();
+    // };
+
+    // var nav = document.getElementById("NavFix");
+    // var sticky = nav.offsetTop;
+
+    // function fix() {
+    //   if (window.pageYOffset > sticky) {
+    //     nav.classList.add("sticky");
+    //   } else {
+    //     nav.classList.remove("sticky");
+    //   }
+    // }
+  </script>
 </body>
 </html>

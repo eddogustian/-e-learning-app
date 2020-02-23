@@ -36,6 +36,8 @@ i.icon.search::before {
 #headerCta #cardMain {
   background: #f2f3f5;
   border-radius: 0px;
+  z-index: 2;
+  border: 1px;
 }
 
 #headerCta #cardMain .list-group .list-group-item {
@@ -140,7 +142,7 @@ i.icon.search::before {
 
 .topnav {
   overflow: hidden;
-  background-color: transparent;
+  background-color: white;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -394,15 +396,52 @@ i.icon.search::before {
   padding-bottom: 0;
   background-color: #212529;
 }
-.tab-shrink {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 3;
+}
+.stickyMenu {
+  position: fixed;
+  top: 153px;
+  width: 100%;
+  z-index: 1;
+  height: 60px;
+  background: white;
+  padding-top: 18px;
+}
+.stickyCard {
+  position: fixed;
+  top: 175px;
+  z-index: 1;
+  background: #f2f3f5;
+}
+.HeaderFixs {
+  position: fixed;
+  top: 75px;
+  z-index: 2;
+  height: 0 !important;
+}
+._headerContetNone {
+  display: none;
+}
+.stickyHeader {
+  position: fixed;
+  top: 75px;
+  z-index: 2;
+  padding: 12px 0;
+  /* height: 80px; */
+  /* padding: 5px 10px 0px 10px;
+  background: linear-gradient(113.52deg, #07133d -41.24%, #aa222f 68.95%); */
+}
+#headerContent .stickyHeader h2 {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 0.0025em;
+  color: #ffffff;
+  width: 75%;
 }
 
 /* .sticky + .content {
@@ -735,6 +774,7 @@ section {
   font-size: 14px;
   line-height: 20px;
   color: #686f7a;
+  text-decoration: none;
 }
 
 #Menu .breadcrumb .bred-item .fa-angle-right {
@@ -852,6 +892,7 @@ section {
 
   color: #454545;
   width: 100%;
+  text-decoration: none;
 }
 .foot-link-sosmed {
   /* float: right; */
