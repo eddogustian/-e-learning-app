@@ -805,28 +805,50 @@ section {
 #footer {
   background: #aa222f;
 }
-
-.foot-link-download {
+.foot-link-sosmed .link-download {
+  display: inline-block;
 }
-
-.foot-link-download ul li a {
+.foot-link-sosmed .link-download .list-app {
+  margin: 0 20px;
 }
-
 .foot-link-download ul li {
   list-style-type: none;
+  float: left;
 }
+.foot-link-sosmed .link-bahasa .dropdown .btn-bahasa {
+  margin-top: 1rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  width: 100%;
+  /* identical to box height, or 150% */
 
+  color: #454545;
+}
+.foot-link-sosmed .link-bahasa ul li a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #454545;
+  width: 100%;
+}
 .foot-link-sosmed {
-  float: right;
-  padding: 20px 0px;
-  margin-top: 50px;
+  /* float: right; */
+  /* padding: 20px 0px; */
+  /* margin-top: 50px; */
   margin-left: 0;
 }
 
 .foot-link-sosmed ul li a {
   list-style-type: none;
   float: left;
-  color: white;
+  /* color: white; */
   padding: 3px 6px;
   height: auto;
   width: 30px;

@@ -801,88 +801,106 @@
                 </div>
             </div> <!-- row end -->
         </section>
-        <section id="footer" class="py-4 bg-footer-cermati text-white-50">
+        <section id="footer" class="py-4 bg-footer-learning text-white-50">
             <div class="container">
                 <div class="row">
                   <div class="col-xs-12 col-md-12">
-                    <div class="">
-                      <div class="foot-link-download">
-                        <ul>
-                          <li class="playstore">
-                            <a href="#">
-                              <img
-                                src="src/assets/images/playstore.png"
-                                class="playstore"
-                                alt="playstore"
-                                width="11.5%"
-                              />
-                            </a>
-                          </li>
-                          <li class="appstore">
-                            <a href="#">
-                              <img
-                                src="src/assets/images/appstore.png"
-                                class="appstore"
-                                alt="appstore"
-                                width="10%"
-                              />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="foot-link-sosmed">
-                        <ul>
-                          <li class="fb">
-                            <a href="#">
-                              <img
-                                src="src/assets/images/sosmed/fb.png"
-                                class="facebook"
-                                alt="icon-fb"
-                                width="70%"
-                              />
-                            </a>
-                          </li>
-                          <li class="ig">
-                            <a href="#">
-                              <img
-                                src="src/assets/images/sosmed/ig.png"
-                                class="instagram"
-                                alt="icon-ig"
-                                width="100%"
-                              />
-                            </a>
-                          </li>
-                          <li class="yt">
-                            <a href="#">
-                              <img
-                                src="src/assets/images/sosmed/yt.png"
-                                class="youtube"
-                                alt="icon-yt"
-                                width="100%"
-                              />
-                            </a>
-                          </li>
-                          <li class="tw">
-                            <a href="#">
-                              <img
-                                src="src/assets/images/sosmed/tw.png"
-                                class="twitter"
-                                alt="icon-tw"
-                                width="100%"
-                              />
-                            </a>
-                          </li>
-                          <li class="lin">
-                            <a href="#">
-                              <img
-                                src="src/assets/images/sosmed/ln.png"
-                                class="linkedln"
-                                alt="icon-ln"
-                                width="100%"
-                              />
-                            </a>
-                          </li>
-                        </ul>
+                    <div class="clearfix">
+                      <div class="foot-link-sosmed float-md-right">
+                        <div class="link-download">
+                          <ul>
+                            <li class="list-app">
+                              <a href="#">
+                                <img
+                                  src="src/assets/images/playstore.png"
+                                  class="playstore"
+                                  alt="playstore"
+                                  width="70"
+                                />
+                              </a>
+                            </li>
+                            <li class="list-app">
+                              <a href="#">
+                                <img
+                                  src="src/assets/images/appstore.png"
+                                  class="appstore"
+                                  alt="appstore"
+                                  width="60"
+                                />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="link-sosmed">
+                          <ul>
+                            <li class="fb">
+                              <a href="#">
+                                <img
+                                  src="src/assets/images/sosmed/fb.png"
+                                  class="facebook"
+                                  alt="icon-fb"
+                                  width="70%"
+                                />
+                              </a>
+                            </li>
+                            <li class="ig">
+                              <a href="#">
+                                <img
+                                  src="src/assets/images/sosmed/ig.png"
+                                  class="instagram"
+                                  alt="icon-ig"
+                                  width="100%"
+                                />
+                              </a>
+                            </li>
+                            <li class="yt">
+                              <a href="#">
+                                <img
+                                  src="src/assets/images/sosmed/yt.png"
+                                  class="youtube"
+                                  alt="icon-yt"
+                                  width="100%"
+                                />
+                              </a>
+                            </li>
+                            <li class="tw">
+                              <a href="#">
+                                <img
+                                  src="src/assets/images/sosmed/tw.png"
+                                  class="twitter"
+                                  alt="icon-tw"
+                                  width="100%"
+                                />
+                              </a>
+                            </li>
+                            <li class="lin">
+                              <a href="#">
+                                <img
+                                  src="src/assets/images/sosmed/ln.png"
+                                  class="linkedln"
+                                  alt="icon-ln"
+                                  width="100%"
+                                />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="link-bahasa">
+                          <div class="dropdown">
+                            <button class="btn btn-bahasa dropdown-toggle" id="bahasa" type="button" data-toggle="dropdown">   <img
+                              src="src/assets/images/persyaratan/globe.png"
+                              class="globef"
+                              alt="icon-globe"
+                              width="17"
+                            /> &nbsp; Bahasa Indonesia 
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="bahasa">
+                              <li role="presentation"><a role="menuitem" class="bahasa-title" tabindex="-1" href="#">Bahasa Inggris</a></li>  
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -894,6 +912,7 @@
  
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <!--- mainjs -->
   <script src="src/assets/js/main.js"></script>
