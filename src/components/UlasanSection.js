@@ -15,7 +15,7 @@ const Ulasan = () => {
             <h4>Ulasan Peserta</h4>
             <img src={line} className="line" alt="line" width="100" />
             <div className="row mt-3">
-              <div className="col-xs-12 col-md-3 text-center">
+              <div className="col-xs-12 col-md-3 text-center mt-5">
                 <h1 className="rating-num">5</h1>
                 <div className="rating">
                   <span className="fa fa-star checked"></span>

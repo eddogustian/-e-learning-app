@@ -7,6 +7,7 @@ body {
   box-shadow: 0px 0px 1px rgba(20, 23, 28, 0.1);
   border-radius: 0px;
 }
+
 i.icon.search::before {
   content: "\f002";
   color: #ff4e4e;
@@ -195,33 +196,63 @@ i.icon.search::before {
   letter-spacing: 0.0025em;
   color: #ffffff;
 }
+
 /* Tab */
-.ui.secondary.inverted.pointing.menu > .item.active,
-.ui.secondary.inverted.pointing.menu > .menu > .item.active {
+
+.ui.secondary.inverted.pointing.menu>.item.active, .ui.secondary.inverted.pointing.menu>.menu>.item.active {
   border-color: #aa222f;
   color: #686f7a;
 }
+
 .ui.secondary.inverted.pointing.menu {
   border-bottom: 3px solid white;
 }
+
 .ui.inverted.menu .active.item {
   box-shadow: none !important;
   background: rgba(255, 255, 255, 0.2);
   color: #aa222f !important;
 }
-.ui.inverted.black.segment,
-.ui.inverted.segment {
+
+.ui.inverted.black.segment, .ui.inverted.segment {
   background-color: white !important;
   color: #686f7a !important;
 }
-.ui.secondary.inverted.pointing.menu > .item {
+
+.ui.secondary.inverted.pointing.menu>.item {
   color: #686f7a;
 }
-.ui.secondary.inverted.pointing.menu > .item:hover,
-.ui.secondary.inverted.pointing.menu > .menu > .item:hover {
+
+.ui.secondary.inverted.pointing.menu>.item:hover, .ui.secondary.inverted.pointing.menu>.menu>.item:hover {
   color: #686f7a;
 }
+
 /* Tab end */
+
+@media only screen and (max-width: 600px) {
+  #_menu {
+    margin-top: 46rem;
+  }
+  .ui.secondary.inverted.pointing.menu>.item {
+    font-size: 12px;
+  }
+  .vl {
+    display: none;
+  }
+  .masuk {
+    text-align: center;
+  }
+  .daftar {
+    text-align: center;
+  }
+  #headerCta #cardMain {
+    margin-top: 1rem;
+  }
+  .foot-link-sosmed {
+    text-align: center;
+  }
+}
+
 #tentang h4 {
   font-style: normal;
   font-weight: bold;
@@ -471,8 +502,7 @@ i.icon.search::before {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
 
 /* 
   ##Device = Tablets, Ipads (portrait)
@@ -631,6 +661,12 @@ section {
   border-radius: 2px;
 }
 
+@media (min-width: 1281px) {
+  #btnCari .cari {
+    width: 500px;
+  }
+}
+
 #Menu .breadcrumb .bred-item .black-text {
   font-style: normal;
   font-weight: 600;
@@ -696,8 +732,7 @@ section {
   color: #eee;
 }
 
-#tabs .nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #aa222f !important;
   background-color: transparent;
   border-color: transparent transparent #eeeeee;
@@ -724,27 +759,59 @@ section {
   background: #aa222f;
 }
 
-.foot-link-download {
+.foot-link-sosmed .link-download {
+  display: inline-block;
 }
 
-.foot-link-download ul li a {
+.foot-link-sosmed .link-download .list-app {
+  margin: 0 52px 0 0;
+}
+
+.foot-link-sosmed .link-download .list-app .appstore {
+  margin-top: 5px;
 }
 
 .foot-link-download ul li {
   list-style-type: none;
+  float: left;
+}
+
+.foot-link-sosmed .link-bahasa .dropdown .btn-bahasa {
+  margin-top: 1rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  width: 100%;
+  /* identical to box height, or 150% */
+  color: #454545;
+  background: white;
+}
+
+.foot-link-sosmed .link-bahasa ul li a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  color: #454545;
+  width: 100%;
+  text-decoration: none;
 }
 
 .foot-link-sosmed {
-  float: right;
-  padding: 20px 0px;
-  margin-top: 50px;
+  /* float: right; */
+  /* padding: 20px 0px; */
+  /* margin-top: 50px; */
   margin-left: 0;
 }
 
 .foot-link-sosmed ul li a {
   list-style-type: none;
   float: left;
-  color: white;
+  /* color: white; */
   padding: 3px 6px;
   height: auto;
   width: 30px;

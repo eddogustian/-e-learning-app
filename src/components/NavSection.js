@@ -18,71 +18,78 @@ const Navigation = () => {
     <StickyHeader
       header={
         <nav className="navbar navbar-expand-lg navbar-light" id="header">
-          <a className="navbar-brand" href="/#">
-            <img src={ylreal} className="ylreal" alt="ylreal" width="100" />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+          <div className="container">
+            <a className="navbar-brand" href="/#">
+              <img src={ylreal} className="ylreal" alt="ylreal" width="100" />
+            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item m-auto">
-                <img src={ktgr} className="ktgr" alt="ktgr" width="20" />
-              </li>
-              <li className="nav-item m-auto titleName">Kategori</li>
-              <li className="nav-item m-auto">
-                <form className="form-inline my-2 my-lg-0" id="btnCari">
-                  <div className="ui icon input">
-                    <input type="text" size="big" placeholder="Search..." />
-                    <i aria-hidden="true" className="search icon"></i>
-                  </div>
-                </form>
-              </li>
-            </ul>
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item m-auto titleName">Sebagai Instruktur</li>
-              <li className="nav-item">
-                <a className="nav-link" href="/#">
-                  <div className="vl"></div>
-                </a>
-              </li>
-              <li className="nav-item m-auto">
-                <a className="nav-link" href="/#">
-                  <img src={cart} className="cart" alt="cart" width="20" />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/#">
-                  <button
-                    className="btn my-2 my-sm-0"
-                    id="btnMasuk"
-                    type="submit"
-                  >
-                    Masuk
-                  </button>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/#">
-                  <button
-                    className="btn my-2 my-sm-0"
-                    id="btnDaftar"
-                    type="submit"
-                  >
-                    Daftar
-                  </button>
-                </a>
-              </li>
-            </ul>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item m-auto">
+                  <img src={ktgr} className="ktgr" alt="ktgr" width="20" />
+                </li>
+                <li className="nav-item m-auto titleName">Kategori</li>
+                <li className="nav-item m-auto">
+                  <form className="form-inline my-2 my-lg-0" id="btnCari">
+                    <div className="ui icon input cari">
+                      <input type="text" size="big" placeholder="Search..." />
+                      <i aria-hidden="true" className="search icon"></i>
+                    </div>
+                  </form>
+                </li>
+              </ul>
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item m-auto titleName">
+                  Sebagai Instruktur
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/#">
+                    <div className="vl"></div>
+                  </a>
+                </li>
+                <li className="nav-item m-auto">
+                  <a className="nav-link" href="/#">
+                    <img src={cart} className="cart" alt="cart" width="20" />
+                  </a>
+                </li>
+                <li className="nav-item masuk">
+                  <a className="nav-link" href="/#">
+                    <button
+                      className="btn my-2 my-sm-0"
+                      id="btnMasuk"
+                      type="submit"
+                    >
+                      Masuk
+                    </button>
+                  </a>
+                </li>
+                <li className="nav-item daftar">
+                  <a className="nav-link" href="/#">
+                    <button
+                      className="btn my-2 my-sm-0"
+                      id="btnDaftar"
+                      type="submit"
+                    >
+                      Daftar
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       }
