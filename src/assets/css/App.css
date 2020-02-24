@@ -94,12 +94,41 @@ i.icon.search::before {
   margin: 0;
   margin-top: 10px;
   padding: 0;
-  width: 500px;
 }
 
 @media (min-width: 1281px) {
   #custom-search-input {
     width: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #headerCta {
+    height: 267px;
+  }
+  .vl {
+    display: none;
+  }
+  #Menu {
+    margin-top: 46rem;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  #headerCta #cardMain {
+    margin-top: 1rem;
+  }
+  .foot-link-sosmed {
+    text-align: center;
+  }
+  .topnav a {
+    font-size: 12px;
+  }
+  .topnav .link {
+    padding: 0;
   }
 }
 
@@ -423,49 +452,46 @@ i.icon.search::before {
   background-color: #212529;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 3;
-}
-
-.stickyMenu {
-  position: fixed;
-  top: 153px;
-  width: 100%;
-  z-index: 1;
-  height: 60px;
-  background: white;
-  padding-top: 18px;
-}
-
-.stickyCard {
-  position: fixed;
-  top: 175px;
-  z-index: 1;
-  background: #f2f3f5;
-}
-
-.HeaderFixs {
-  position: fixed;
-  top: 75px;
-  z-index: 2;
-  height: 0 !important;
-}
-
-._headerContetNone {
-  display: none;
-}
-
-.stickyHeader {
-  position: fixed;
-  top: 75px;
-  z-index: 2;
-  padding: 12px 0;
-  /* height: 80px; */
-  /* padding: 5px 10px 0px 10px;
-  background: linear-gradient(113.52deg, #07133d -41.24%, #aa222f 68.95%); */
+@media (min-width: 1281px) {
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+  }
+  .stickyMenu {
+    position: fixed;
+    top: 153px;
+    width: 100%;
+    z-index: 1;
+    height: 60px;
+    background: white;
+    padding-top: 18px;
+  }
+  .stickyCard {
+    position: fixed;
+    top: 175px;
+    z-index: 1;
+    background: #f2f3f5;
+  }
+  .HeaderFixs {
+    position: fixed;
+    top: 75px;
+    z-index: 2;
+    height: 0 !important;
+  }
+  ._headerContetNone {
+    display: none;
+  }
+  .stickyHeader {
+    position: fixed;
+    top: 75px;
+    z-index: 2;
+    padding: 12px 0;
+    /* height: 80px; */
+    /* padding: 5px 10px 0px 10px;
+    background: linear-gradient(113.52deg, #07133d -41.24%, #aa222f 68.95%); */
+  }
 }
 
 #headerContent .stickyHeader h2 {
