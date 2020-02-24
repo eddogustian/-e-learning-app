@@ -130,6 +130,9 @@ i.icon.search::before {
   .topnav .link {
     padding: 0;
   }
+  #pembuatkursus .people {
+    width: 50%;
+  }
 }
 
 #custom-search-input .search-query {

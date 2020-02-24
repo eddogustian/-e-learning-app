@@ -18,7 +18,11 @@ const PembuatKursus = () => {
                 <div className="col-md-4">
                   <div className="row mt-3">
                     <div className="col-md-5 mx-auto text-center">
-                      <img src={people} className="card-img" alt="people" />
+                      <img
+                        src={people}
+                        className="card-img people"
+                        alt="people"
+                      />
                     </div>
                   </div>
                   <div className="card-body text-center">

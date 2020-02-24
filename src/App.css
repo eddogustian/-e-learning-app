@@ -231,7 +231,7 @@ i.icon.search::before {
 
 @media only screen and (max-width: 600px) {
   #_menu {
-    margin-top: 46rem;
+    margin-bottom: 4rem;
   }
   .ui.secondary.inverted.pointing.menu>.item {
     font-size: 12px;
@@ -250,6 +250,12 @@ i.icon.search::before {
   }
   .foot-link-sosmed {
     text-align: center;
+  }
+  #pembuatKursus .people {
+    width: 50%;
+  }
+  .breadcrumb {
+    margin-top: 50rem;
   }
 }
 
